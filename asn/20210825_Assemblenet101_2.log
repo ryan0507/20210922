@@ -1,0 +1,3279 @@
+restoring or initializing model...
+initialized model.
+train | step:      0 | training until step 288...
+train | step:    288 | steps/sec:    0.5 | output: 
+    {'accuracy': 0.0719401,
+     'learning_rate': 0.008,
+     'top_1_accuracy': 0.072374135,
+     'top_5_accuracy': 0.21191406,
+     'training_loss': 4.1893625}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-288.
+ eval | step:    288 | running 288 steps of evaluation...
+ eval | step:    288 | eval time:  106.1 sec | output: 
+    {'accuracy': 0.058527544,
+     'top_1_accuracy': 0.059057202,
+     'top_5_accuracy': 0.16737288,
+     'validation_loss': 4.2796226}
+train | step:    288 | training until step 576...
+train | step:    576 | steps/sec:    0.7 | output: 
+    {'accuracy': 0.16189235,
+     'learning_rate': 0.008,
+     'top_1_accuracy': 0.16362847,
+     'top_5_accuracy': 0.4184028,
+     'training_loss': 3.5021856}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-576.
+ eval | step:    576 | running 288 steps of evaluation...
+ eval | step:    576 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.13612288,
+     'top_1_accuracy': 0.13930085,
+     'top_5_accuracy': 0.38241526,
+     'validation_loss': 3.6959276}
+train | step:    576 | training until step 864...
+train | step:    864 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.21961805,
+     'learning_rate': 0.008,
+     'top_1_accuracy': 0.22211371,
+     'top_5_accuracy': 0.50390625,
+     'training_loss': 3.1897926}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-864.
+ eval | step:    864 | running 288 steps of evaluation...
+ eval | step:    864 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.16790254,
+     'top_1_accuracy': 0.17055085,
+     'top_5_accuracy': 0.4131356,
+     'validation_loss': 3.5770113}
+train | step:    864 | training until step 1152...
+train | step:   1152 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.25412327,
+     'learning_rate': 0.0076800003,
+     'top_1_accuracy': 0.2564019,
+     'top_5_accuracy': 0.5566406,
+     'training_loss': 2.9966047}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-1152.
+ eval | step:   1152 | running 288 steps of evaluation...
+ eval | step:   1152 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.16022246,
+     'top_1_accuracy': 0.16181144,
+     'top_5_accuracy': 0.4210805,
+     'validation_loss': 3.5671008}
+train | step:   1152 | training until step 1440...
+train | step:   1440 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.3077257,
+     'learning_rate': 0.0076800003,
+     'top_1_accuracy': 0.3107639,
+     'top_5_accuracy': 0.60633683,
+     'training_loss': 2.7886283}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-1440.
+ eval | step:   1440 | running 288 steps of evaluation...
+ eval | step:   1440 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.1970339,
+     'top_1_accuracy': 0.19941737,
+     'top_5_accuracy': 0.44994703,
+     'validation_loss': 3.4605796}
+train | step:   1440 | training until step 1728...
+train | step:   1728 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.3246528,
+     'learning_rate': 0.0076800003,
+     'top_1_accuracy': 0.3280165,
+     'top_5_accuracy': 0.64919704,
+     'training_loss': 2.6315854}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-1728.
+ eval | step:   1728 | running 288 steps of evaluation...
+ eval | step:   1728 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.17849576,
+     'top_1_accuracy': 0.18114407,
+     'top_5_accuracy': 0.44120762,
+     'validation_loss': 3.6011293}
+train | step:   1728 | training until step 2016...
+train | step:   2016 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.34375,
+     'learning_rate': 0.0076800003,
+     'top_1_accuracy': 0.34765625,
+     'top_5_accuracy': 0.67078996,
+     'training_loss': 2.5512362}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-2016.
+ eval | step:   2016 | running 288 steps of evaluation...
+ eval | step:   2016 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.20074153,
+     'top_1_accuracy': 0.20153601,
+     'top_5_accuracy': 0.44729874,
+     'validation_loss': 3.6225762}
+train | step:   2016 | training until step 2304...
+train | step:   2304 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.37521702,
+     'learning_rate': 0.0073728003,
+     'top_1_accuracy': 0.37901476,
+     'top_5_accuracy': 0.70713973,
+     'training_loss': 2.3818216}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-2304.
+ eval | step:   2304 | running 288 steps of evaluation...
+ eval | step:   2304 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.23411018,
+     'top_1_accuracy': 0.23543432,
+     'top_5_accuracy': 0.5010593,
+     'validation_loss': 3.3257914}
+train | step:   2304 | training until step 2592...
+train | step:   2592 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.4027778,
+     'learning_rate': 0.0073728003,
+     'top_1_accuracy': 0.40776908,
+     'top_5_accuracy': 0.7279731,
+     'training_loss': 2.278774}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-2592.
+ eval | step:   2592 | running 288 steps of evaluation...
+ eval | step:   2592 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.1935911,
+     'top_1_accuracy': 0.19518009,
+     'top_5_accuracy': 0.45471397,
+     'validation_loss': 3.6163414}
+train | step:   2592 | training until step 2880...
+train | step:   2880 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.42263454,
+     'learning_rate': 0.0073728003,
+     'top_1_accuracy': 0.42599827,
+     'top_5_accuracy': 0.7494575,
+     'training_loss': 2.1691363}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-2880.
+ eval | step:   2880 | running 288 steps of evaluation...
+ eval | step:   2880 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.22775424,
+     'top_1_accuracy': 0.22934322,
+     'top_5_accuracy': 0.5129767,
+     'validation_loss': 3.2991936}
+train | step:   2880 | training until step 3168...
+train | step:   3168 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.45236546,
+     'learning_rate': 0.0070778877,
+     'top_1_accuracy': 0.45551217,
+     'top_5_accuracy': 0.77907985,
+     'training_loss': 2.065799}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-3168.
+ eval | step:   3168 | running 288 steps of evaluation...
+ eval | step:   3168 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.22590043,
+     'top_1_accuracy': 0.2282839,
+     'top_5_accuracy': 0.52383476,
+     'validation_loss': 3.4317408}
+train | step:   3168 | training until step 3456...
+train | step:   3456 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.47775608,
+     'learning_rate': 0.0070778877,
+     'top_1_accuracy': 0.48079428,
+     'top_5_accuracy': 0.79307723,
+     'training_loss': 1.9652288}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-3456.
+ eval | step:   3456 | running 288 steps of evaluation...
+ eval | step:   3456 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.24126059,
+     'top_1_accuracy': 0.24311441,
+     'top_5_accuracy': 0.5267479,
+     'validation_loss': 3.3125536}
+train | step:   3456 | training until step 3744...
+train | step:   3744 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.4938151,
+     'learning_rate': 0.0070778877,
+     'top_1_accuracy': 0.49739584,
+     'top_5_accuracy': 0.80653214,
+     'training_loss': 1.8772935}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-3744.
+ eval | step:   3744 | running 288 steps of evaluation...
+ eval | step:   3744 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.25211865,
+     'top_1_accuracy': 0.25370762,
+     'top_5_accuracy': 0.5325742,
+     'validation_loss': 3.3939826}
+train | step:   3744 | training until step 4032...
+train | step:   4032 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.51345485,
+     'learning_rate': 0.0070778877,
+     'top_1_accuracy': 0.51801217,
+     'top_5_accuracy': 0.82541233,
+     'training_loss': 1.7921882}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-4032.
+ eval | step:   4032 | running 288 steps of evaluation...
+ eval | step:   4032 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.23305085,
+     'top_1_accuracy': 0.23596399,
+     'top_5_accuracy': 0.52330506,
+     'validation_loss': 3.6334677}
+train | step:   4032 | training until step 4320...
+train | step:   4320 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.54926217,
+     'learning_rate': 0.0067947726,
+     'top_1_accuracy': 0.5534939,
+     'top_5_accuracy': 0.843533,
+     'training_loss': 1.695367}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-4320.
+ eval | step:   4320 | running 288 steps of evaluation...
+ eval | step:   4320 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.26085806,
+     'top_1_accuracy': 0.26244703,
+     'top_5_accuracy': 0.5460805,
+     'validation_loss': 3.4923923}
+train | step:   4320 | training until step 4608...
+train | step:   4608 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.5689019,
+     'learning_rate': 0.0067947726,
+     'top_1_accuracy': 0.5729167,
+     'top_5_accuracy': 0.8577474,
+     'training_loss': 1.5939844}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-4608.
+ eval | step:   4608 | running 288 steps of evaluation...
+ eval | step:   4608 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.29528603,
+     'top_1_accuracy': 0.29793432,
+     'top_5_accuracy': 0.58633476,
+     'validation_loss': 3.3314843}
+train | step:   4608 | training until step 4896...
+train | step:   4896 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.5868056,
+     'learning_rate': 0.0067947726,
+     'top_1_accuracy': 0.5917969,
+     'top_5_accuracy': 0.86957467,
+     'training_loss': 1.5101271}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-4896.
+ eval | step:   4896 | running 288 steps of evaluation...
+ eval | step:   4896 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.24841101,
+     'top_1_accuracy': 0.25132415,
+     'top_5_accuracy': 0.50317794,
+     'validation_loss': 3.8978724}
+train | step:   4896 | training until step 5184...
+train | step:   5184 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.61046004,
+     'learning_rate': 0.006522981,
+     'top_1_accuracy': 0.61469185,
+     'top_5_accuracy': 0.88378906,
+     'training_loss': 1.4238305}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-5184.
+ eval | step:   5184 | running 288 steps of evaluation...
+ eval | step:   5184 | eval time:   61.2 sec | output: 
+    {'accuracy': 0.29131356,
+     'top_1_accuracy': 0.29555085,
+     'top_5_accuracy': 0.58183265,
+     'validation_loss': 3.4070756}
+train | step:   5184 | training until step 5472...
+train | step:   5472 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.6345486,
+     'learning_rate': 0.006522981,
+     'top_1_accuracy': 0.6380208,
+     'top_5_accuracy': 0.8914931,
+     'training_loss': 1.346675}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-5472.
+ eval | step:   5472 | running 288 steps of evaluation...
+ eval | step:   5472 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.3193856,
+     'top_1_accuracy': 0.3238877,
+     'top_5_accuracy': 0.6117585,
+     'validation_loss': 3.0569537}
+train | step:   5472 | training until step 5760...
+train | step:   5760 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.65928817,
+     'learning_rate': 0.006522981,
+     'top_1_accuracy': 0.6624349,
+     'top_5_accuracy': 0.9082031,
+     'training_loss': 1.2539121}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-5760.
+ eval | step:   5760 | running 288 steps of evaluation...
+ eval | step:   5760 | eval time:   61.2 sec | output: 
+    {'accuracy': 0.30164194,
+     'top_1_accuracy': 0.30349576,
+     'top_5_accuracy': 0.5884534,
+     'validation_loss': 3.4711342}
+train | step:   5760 | training until step 6048...
+train | step:   6048 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.67784286,
+     'learning_rate': 0.006522981,
+     'top_1_accuracy': 0.6826172,
+     'top_5_accuracy': 0.91297746,
+     'training_loss': 1.188884}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-6048.
+ eval | step:   6048 | running 288 steps of evaluation...
+ eval | step:   6048 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.3331568,
+     'top_1_accuracy': 0.33633474,
+     'top_5_accuracy': 0.60990465,
+     'validation_loss': 3.2018454}
+train | step:   6048 | training until step 6336...
+train | step:   6336 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.6892361,
+     'learning_rate': 0.006262061,
+     'top_1_accuracy': 0.6933594,
+     'top_5_accuracy': 0.91970485,
+     'training_loss': 1.1277385}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-6336.
+ eval | step:   6336 | running 288 steps of evaluation...
+ eval | step:   6336 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.31567797,
+     'top_1_accuracy': 0.3175318,
+     'top_5_accuracy': 0.6104343,
+     'validation_loss': 3.2797053}
+train | step:   6336 | training until step 6624...
+train | step:   6624 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.7086589,
+     'learning_rate': 0.006262061,
+     'top_1_accuracy': 0.7125651,
+     'top_5_accuracy': 0.9329427,
+     'training_loss': 1.049844}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-6624.
+ eval | step:   6624 | running 288 steps of evaluation...
+ eval | step:   6624 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.3159428,
+     'top_1_accuracy': 0.32070974,
+     'top_5_accuracy': 0.607786,
+     'validation_loss': 3.198676}
+train | step:   6624 | training until step 6912...
+train | step:   6912 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.7328559,
+     'learning_rate': 0.006262061,
+     'top_1_accuracy': 0.73513454,
+     'top_5_accuracy': 0.94292533,
+     'training_loss': 0.97452545}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-6912.
+ eval | step:   6912 | running 288 steps of evaluation...
+ eval | step:   6912 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.3196504,
+     'top_1_accuracy': 0.3209746,
+     'top_5_accuracy': 0.6387712,
+     'validation_loss': 3.25061}
+train | step:   6912 | training until step 7200...
+train | step:   7200 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.73795575,
+     'learning_rate': 0.006011579,
+     'top_1_accuracy': 0.7409939,
+     'top_5_accuracy': 0.9453125,
+     'training_loss': 0.9368298}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-7200.
+ eval | step:   7200 | running 288 steps of evaluation...
+ eval | step:   7200 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.34772247,
+     'top_1_accuracy': 0.35010594,
+     'top_5_accuracy': 0.623411,
+     'validation_loss': 3.1743312}
+train | step:   7200 | training until step 7488...
+train | step:   7488 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.7465278,
+     'learning_rate': 0.006011579,
+     'top_1_accuracy': 0.7511936,
+     'top_5_accuracy': 0.9505208,
+     'training_loss': 0.8772304}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-7488.
+ eval | step:   7488 | running 288 steps of evaluation...
+ eval | step:   7488 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.34692797,
+     'top_1_accuracy': 0.34904662,
+     'top_5_accuracy': 0.64115465,
+     'validation_loss': 3.1344485}
+train | step:   7488 | training until step 7776...
+train | step:   7776 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.7766927,
+     'learning_rate': 0.006011579,
+     'top_1_accuracy': 0.77907985,
+     'top_5_accuracy': 0.95562065,
+     'training_loss': 0.8172702}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-7776.
+ eval | step:   7776 | running 288 steps of evaluation...
+ eval | step:   7776 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.3230932,
+     'top_1_accuracy': 0.32574153,
+     'top_5_accuracy': 0.5722987,
+     'validation_loss': 3.4294195}
+train | step:   7776 | training until step 8064...
+train | step:   8064 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.77821183,
+     'learning_rate': 0.006011579,
+     'top_1_accuracy': 0.78168404,
+     'top_5_accuracy': 0.9592014,
+     'training_loss': 0.7832837}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-8064.
+ eval | step:   8064 | running 288 steps of evaluation...
+ eval | step:   8064 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.35460806,
+     'top_1_accuracy': 0.35990465,
+     'top_5_accuracy': 0.65148306,
+     'validation_loss': 3.1027226}
+train | step:   8064 | training until step 8352...
+train | step:   8352 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.7949219,
+     'learning_rate': 0.005771116,
+     'top_1_accuracy': 0.7980686,
+     'top_5_accuracy': 0.9643012,
+     'training_loss': 0.7302726}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-8352.
+ eval | step:   8352 | running 288 steps of evaluation...
+ eval | step:   8352 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.33554026,
+     'top_1_accuracy': 0.3403072,
+     'top_5_accuracy': 0.64962924,
+     'validation_loss': 3.1135435}
+train | step:   8352 | training until step 8640...
+train | step:   8640 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.80566406,
+     'learning_rate': 0.005771116,
+     'top_1_accuracy': 0.8090278,
+     'top_5_accuracy': 0.9670139,
+     'training_loss': 0.6968739}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-8640.
+ eval | step:   8640 | running 288 steps of evaluation...
+ eval | step:   8640 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.3628178,
+     'top_1_accuracy': 0.36679026,
+     'top_5_accuracy': 0.6581038,
+     'validation_loss': 3.15841}
+train | step:   8640 | training until step 8928...
+train | step:   8928 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.8237847,
+     'learning_rate': 0.005771116,
+     'top_1_accuracy': 0.82573783,
+     'top_5_accuracy': 0.9736328,
+     'training_loss': 0.63719666}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-8928.
+ eval | step:   8928 | running 288 steps of evaluation...
+ eval | step:   8928 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.3699682,
+     'top_1_accuracy': 0.37261653,
+     'top_5_accuracy': 0.6602225,
+     'validation_loss': 3.3013024}
+train | step:   8928 | training until step 9216...
+train | step:   9216 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.83669704,
+     'learning_rate': 0.0055402713,
+     'top_1_accuracy': 0.8390842,
+     'top_5_accuracy': 0.9737413,
+     'training_loss': 0.60680944}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-9216.
+ eval | step:   9216 | running 288 steps of evaluation...
+ eval | step:   9216 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.37552965,
+     'top_1_accuracy': 0.3776483,
+     'top_5_accuracy': 0.6607521,
+     'validation_loss': 3.1348844}
+train | step:   9216 | training until step 9504...
+train | step:   9504 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.84884983,
+     'learning_rate': 0.0055402713,
+     'top_1_accuracy': 0.8517795,
+     'top_5_accuracy': 0.97591144,
+     'training_loss': 0.5577624}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-9504.
+ eval | step:   9504 | running 288 steps of evaluation...
+ eval | step:   9504 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.36255297,
+     'top_1_accuracy': 0.36493644,
+     'top_5_accuracy': 0.657839,
+     'validation_loss': 3.1342041}
+train | step:   9504 | training until step 9792...
+train | step:   9792 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.85232204,
+     'learning_rate': 0.0055402713,
+     'top_1_accuracy': 0.8560113,
+     'top_5_accuracy': 0.97753906,
+     'training_loss': 0.5336315}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-9792.
+ eval | step:   9792 | running 288 steps of evaluation...
+ eval | step:   9792 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.3784428,
+     'top_1_accuracy': 0.38082626,
+     'top_5_accuracy': 0.6528072,
+     'validation_loss': 3.1275206}
+train | step:   9792 | training until step 10080...
+train | step:  10080 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.85026044,
+     'learning_rate': 0.0055402713,
+     'top_1_accuracy': 0.85373265,
+     'top_5_accuracy': 0.98187935,
+     'training_loss': 0.51916647}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-10080.
+ eval | step:  10080 | running 288 steps of evaluation...
+ eval | step:  10080 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.3506356,
+     'top_1_accuracy': 0.35407838,
+     'top_5_accuracy': 0.6475106,
+     'validation_loss': 3.449598}
+train | step:  10080 | training until step 10368...
+train | step:  10368 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.8685981,
+     'learning_rate': 0.00531866,
+     'top_1_accuracy': 0.8708767,
+     'top_5_accuracy': 0.98394096,
+     'training_loss': 0.47194332}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-10368.
+ eval | step:  10368 | running 288 steps of evaluation...
+ eval | step:  10368 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.40254238,
+     'top_1_accuracy': 0.4036017,
+     'top_5_accuracy': 0.69067794,
+     'validation_loss': 3.1567214}
+train | step:  10368 | training until step 10656...
+train | step:  10656 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.87391496,
+     'learning_rate': 0.00531866,
+     'top_1_accuracy': 0.87575954,
+     'top_5_accuracy': 0.9855686,
+     'training_loss': 0.44398466}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-10656.
+ eval | step:  10656 | running 288 steps of evaluation...
+ eval | step:  10656 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.37367585,
+     'top_1_accuracy': 0.375,
+     'top_5_accuracy': 0.6753178,
+     'validation_loss': 3.2540996}
+train | step:  10656 | training until step 10944...
+train | step:  10944 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.87749565,
+     'learning_rate': 0.00531866,
+     'top_1_accuracy': 0.8796658,
+     'top_5_accuracy': 0.9857856,
+     'training_loss': 0.43074638}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-10944.
+ eval | step:  10944 | running 288 steps of evaluation...
+ eval | step:  10944 | eval time:   61.3 sec | output: 
+    {'accuracy': 0.3792373,
+     'top_1_accuracy': 0.3829449,
+     'top_5_accuracy': 0.6631356,
+     'validation_loss': 3.2671683}
+train | step:  10944 | training until step 11232...
+train | step:  11232 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.88498265,
+     'learning_rate': 0.00531866,
+     'top_1_accuracy': 0.88758683,
+     'top_5_accuracy': 0.9873047,
+     'training_loss': 0.4198639}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-11232.
+ eval | step:  11232 | running 288 steps of evaluation...
+ eval | step:  11232 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.3723517,
+     'top_1_accuracy': 0.37394068,
+     'top_5_accuracy': 0.6663136,
+     'validation_loss': 3.2605107}
+train | step:  11232 | training until step 11520...
+train | step:  11520 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.8943142,
+     'learning_rate': 0.0051059136,
+     'top_1_accuracy': 0.8956163,
+     'top_5_accuracy': 0.9884983,
+     'training_loss': 0.38880947}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-11520.
+ eval | step:  11520 | running 288 steps of evaluation...
+ eval | step:  11520 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.39618644,
+     'top_1_accuracy': 0.39989406,
+     'top_5_accuracy': 0.6909428,
+     'validation_loss': 3.1783578}
+train | step:  11520 | training until step 11808...
+train | step:  11808 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.8909505,
+     'learning_rate': 0.0051059136,
+     'top_1_accuracy': 0.89312065,
+     'top_5_accuracy': 0.9887153,
+     'training_loss': 0.3784672}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-11808.
+ eval | step:  11808 | running 288 steps of evaluation...
+ eval | step:  11808 | eval time:   61.2 sec | output: 
+    {'accuracy': 0.40439618,
+     'top_1_accuracy': 0.40625,
+     'top_5_accuracy': 0.6959746,
+     'validation_loss': 3.004581}
+train | step:  11808 | training until step 12096...
+train | step:  12096 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.90733504,
+     'learning_rate': 0.0051059136,
+     'top_1_accuracy': 0.90863717,
+     'top_5_accuracy': 0.98969185,
+     'training_loss': 0.3392956}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-12096.
+ eval | step:  12096 | running 288 steps of evaluation...
+ eval | step:  12096 | eval time:   61.2 sec | output: 
+    {'accuracy': 0.38903603,
+     'top_1_accuracy': 0.39380297,
+     'top_5_accuracy': 0.69120765,
+     'validation_loss': 3.1052837}
+train | step:  12096 | training until step 12384...
+train | step:  12384 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.91102433,
+     'learning_rate': 0.004901677,
+     'top_1_accuracy': 0.91276044,
+     'top_5_accuracy': 0.99142796,
+     'training_loss': 0.3203346}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-12384.
+ eval | step:  12384 | running 288 steps of evaluation...
+ eval | step:  12384 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.39433262,
+     'top_1_accuracy': 0.3977754,
+     'top_5_accuracy': 0.68802965,
+     'validation_loss': 3.3110394}
+train | step:  12384 | training until step 12672...
+train | step:  12672 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9189453,
+     'learning_rate': 0.004901677,
+     'top_1_accuracy': 0.9202474,
+     'top_5_accuracy': 0.9924045,
+     'training_loss': 0.30741677}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-12672.
+ eval | step:  12672 | running 288 steps of evaluation...
+ eval | step:  12672 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.38585806,
+     'top_1_accuracy': 0.38824153,
+     'top_5_accuracy': 0.67505294,
+     'validation_loss': 3.241468}
+train | step:  12672 | training until step 12960...
+train | step:  12960 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9140625,
+     'learning_rate': 0.004901677,
+     'top_1_accuracy': 0.9154731,
+     'top_5_accuracy': 0.9909939,
+     'training_loss': 0.31319168}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-12960.
+ eval | step:  12960 | running 288 steps of evaluation...
+ eval | step:  12960 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.4147246,
+     'top_1_accuracy': 0.41657838,
+     'top_5_accuracy': 0.6946504,
+     'validation_loss': 3.1640506}
+train | step:  12960 | training until step 13248...
+train | step:  13248 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.92263454,
+     'learning_rate': 0.004901677,
+     'top_1_accuracy': 0.92426217,
+     'top_5_accuracy': 0.99403214,
+     'training_loss': 0.28083786}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-13248.
+ eval | step:  13248 | running 288 steps of evaluation...
+ eval | step:  13248 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.39115465,
+     'top_1_accuracy': 0.39433262,
+     'top_5_accuracy': 0.6935911,
+     'validation_loss': 3.257896}
+train | step:  13248 | training until step 13536...
+train | step:  13536 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9192708,
+     'learning_rate': 0.0047056098,
+     'top_1_accuracy': 0.92089844,
+     'top_5_accuracy': 0.99294704,
+     'training_loss': 0.28219056}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-13536.
+ eval | step:  13536 | running 288 steps of evaluation...
+ eval | step:  13536 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.4020127,
+     'top_1_accuracy': 0.40519068,
+     'top_5_accuracy': 0.6914725,
+     'validation_loss': 3.2047596}
+train | step:  13536 | training until step 13824...
+train | step:  13824 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9319661,
+     'learning_rate': 0.0047056098,
+     'top_1_accuracy': 0.93370223,
+     'top_5_accuracy': 0.99468315,
+     'training_loss': 0.24818087}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-13824.
+ eval | step:  13824 | running 288 steps of evaluation...
+ eval | step:  13824 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.42743644,
+     'top_1_accuracy': 0.4290254,
+     'top_5_accuracy': 0.69491524,
+     'validation_loss': 3.0399022}
+train | step:  13824 | training until step 14112...
+train | step:  14112 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.930013,
+     'learning_rate': 0.0047056098,
+     'top_1_accuracy': 0.9310981,
+     'top_5_accuracy': 0.99490017,
+     'training_loss': 0.25095636}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-14112.
+ eval | step:  14112 | running 288 steps of evaluation...
+ eval | step:  14112 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.39088982,
+     'top_1_accuracy': 0.39353815,
+     'top_5_accuracy': 0.7004767,
+     'validation_loss': 3.3593538}
+train | step:  14112 | training until step 14400...
+train | step:  14400 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.93500435,
+     'learning_rate': 0.0045173853,
+     'top_1_accuracy': 0.9366319,
+     'top_5_accuracy': 0.9950087,
+     'training_loss': 0.23178405}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-14400.
+ eval | step:  14400 | running 288 steps of evaluation...
+ eval | step:  14400 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.43776482,
+     'top_1_accuracy': 0.44067797,
+     'top_5_accuracy': 0.71239406,
+     'validation_loss': 2.9381962}
+train | step:  14400 | training until step 14688...
+train | step:  14688 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9375,
+     'learning_rate': 0.0045173853,
+     'top_1_accuracy': 0.93880206,
+     'top_5_accuracy': 0.9950087,
+     'training_loss': 0.22890311}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-14688.
+ eval | step:  14688 | running 288 steps of evaluation...
+ eval | step:  14688 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.3932733,
+     'top_1_accuracy': 0.39592162,
+     'top_5_accuracy': 0.66419494,
+     'validation_loss': 3.397096}
+train | step:  14688 | training until step 14976...
+train | step:  14976 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9430339,
+     'learning_rate': 0.0045173853,
+     'top_1_accuracy': 0.94455296,
+     'top_5_accuracy': 0.9954427,
+     'training_loss': 0.21834667}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-14976.
+ eval | step:  14976 | running 288 steps of evaluation...
+ eval | step:  14976 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.4303496,
+     'top_1_accuracy': 0.4332627,
+     'top_5_accuracy': 0.71133476,
+     'validation_loss': 3.046942}
+train | step:  14976 | training until step 15264...
+train | step:  15264 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9473741,
+     'learning_rate': 0.0045173853,
+     'top_1_accuracy': 0.94932723,
+     'top_5_accuracy': 0.9970703,
+     'training_loss': 0.19770426}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-15264.
+ eval | step:  15264 | running 288 steps of evaluation...
+ eval | step:  15264 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.4602754,
+     'top_1_accuracy': 0.46212924,
+     'top_5_accuracy': 0.71822035,
+     'validation_loss': 2.8970373}
+train | step:  15264 | training until step 15552...
+train | step:  15552 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9465061,
+     'learning_rate': 0.0043366896,
+     'top_1_accuracy': 0.9479167,
+     'top_5_accuracy': 0.9967448,
+     'training_loss': 0.19315666}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-15552.
+ eval | step:  15552 | running 288 steps of evaluation...
+ eval | step:  15552 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4488877,
+     'top_1_accuracy': 0.45153603,
+     'top_5_accuracy': 0.7195445,
+     'validation_loss': 2.987908}
+train | step:  15552 | training until step 15840...
+train | step:  15840 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9481337,
+     'learning_rate': 0.0043366896,
+     'top_1_accuracy': 0.9498698,
+     'top_5_accuracy': 0.99782985,
+     'training_loss': 0.1858378}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-15840.
+ eval | step:  15840 | running 288 steps of evaluation...
+ eval | step:  15840 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4112818,
+     'top_1_accuracy': 0.4139301,
+     'top_5_accuracy': 0.69067794,
+     'validation_loss': 3.15774}
+train | step:  15840 | training until step 16128...
+train | step:  16128 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9565972,
+     'learning_rate': 0.0043366896,
+     'top_1_accuracy': 0.9574653,
+     'top_5_accuracy': 0.99782985,
+     'training_loss': 0.17297547}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-16128.
+ eval | step:  16128 | running 288 steps of evaluation...
+ eval | step:  16128 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4287606,
+     'top_1_accuracy': 0.43220338,
+     'top_5_accuracy': 0.71875,
+     'validation_loss': 3.1209598}
+train | step:  16128 | training until step 16416...
+train | step:  16416 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9530165,
+     'learning_rate': 0.004163222,
+     'top_1_accuracy': 0.95388454,
+     'top_5_accuracy': 0.99609375,
+     'training_loss': 0.180029}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-16416.
+ eval | step:  16416 | running 288 steps of evaluation...
+ eval | step:  16416 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.40942797,
+     'top_1_accuracy': 0.4112818,
+     'top_5_accuracy': 0.689089,
+     'validation_loss': 3.2014925}
+train | step:  16416 | training until step 16704...
+train | step:  16704 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9543186,
+     'learning_rate': 0.004163222,
+     'top_1_accuracy': 0.9554036,
+     'top_5_accuracy': 0.9979384,
+     'training_loss': 0.17178565}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-16704.
+ eval | step:  16704 | running 288 steps of evaluation...
+ eval | step:  16704 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.43697035,
+     'top_1_accuracy': 0.4401483,
+     'top_5_accuracy': 0.72245765,
+     'validation_loss': 3.0187411}
+train | step:  16704 | training until step 16992...
+train | step:  16992 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.960612,
+     'learning_rate': 0.004163222,
+     'top_1_accuracy': 0.96137154,
+     'top_5_accuracy': 0.9963108,
+     'training_loss': 0.1518593}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-16992.
+ eval | step:  16992 | running 288 steps of evaluation...
+ eval | step:  16992 | eval time:   61.2 sec | output: 
+    {'accuracy': 0.40439618,
+     'top_1_accuracy': 0.40757415,
+     'top_5_accuracy': 0.67823094,
+     'validation_loss': 3.4411092}
+train | step:  16992 | training until step 17280...
+train | step:  17280 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9557292,
+     'learning_rate': 0.004163222,
+     'top_1_accuracy': 0.9563802,
+     'top_5_accuracy': 0.9979384,
+     'training_loss': 0.16090728}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-17280.
+ eval | step:  17280 | running 288 steps of evaluation...
+ eval | step:  17280 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.421875,
+     'top_1_accuracy': 0.42319915,
+     'top_5_accuracy': 0.71398306,
+     'validation_loss': 3.088623}
+train | step:  17280 | training until step 17568...
+train | step:  17568 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9577908,
+     'learning_rate': 0.003996693,
+     'top_1_accuracy': 0.9592014,
+     'top_5_accuracy': 0.99641925,
+     'training_loss': 0.16326657}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-17568.
+ eval | step:  17568 | running 288 steps of evaluation...
+ eval | step:  17568 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.3985699,
+     'top_1_accuracy': 0.4012182,
+     'top_5_accuracy': 0.69120765,
+     'validation_loss': 3.364106}
+train | step:  17568 | training until step 17856...
+train | step:  17856 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9625651,
+     'learning_rate': 0.003996693,
+     'top_1_accuracy': 0.9635417,
+     'top_5_accuracy': 0.99696183,
+     'training_loss': 0.14531404}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-17856.
+ eval | step:  17856 | running 288 steps of evaluation...
+ eval | step:  17856 | eval time:   61.5 sec | output: 
+    {'accuracy': 0.4176377,
+     'top_1_accuracy': 0.42134535,
+     'top_5_accuracy': 0.7118644,
+     'validation_loss': 3.1229572}
+train | step:  17856 | training until step 18144...
+train | step:  18144 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9652778,
+     'learning_rate': 0.003996693,
+     'top_1_accuracy': 0.96603733,
+     'top_5_accuracy': 0.9977214,
+     'training_loss': 0.13829468}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-18144.
+ eval | step:  18144 | running 288 steps of evaluation...
+ eval | step:  18144 | eval time:   61.3 sec | output: 
+    {'accuracy': 0.44147247,
+     'top_1_accuracy': 0.4443856,
+     'top_5_accuracy': 0.7131886,
+     'validation_loss': 2.9967263}
+train | step:  18144 | training until step 18432...
+train | step:  18432 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9624566,
+     'learning_rate': 0.0038368253,
+     'top_1_accuracy': 0.96365017,
+     'top_5_accuracy': 0.99782985,
+     'training_loss': 0.14182198}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-18432.
+ eval | step:  18432 | running 288 steps of evaluation...
+ eval | step:  18432 | eval time:   61.6 sec | output: 
+    {'accuracy': 0.43193856,
+     'top_1_accuracy': 0.43379238,
+     'top_5_accuracy': 0.71371824,
+     'validation_loss': 3.1221654}
+train | step:  18432 | training until step 18720...
+train | step:  18720 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9644097,
+     'learning_rate': 0.0038368253,
+     'top_1_accuracy': 0.9656033,
+     'top_5_accuracy': 0.99902344,
+     'training_loss': 0.1269717}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-18720.
+ eval | step:  18720 | running 288 steps of evaluation...
+ eval | step:  18720 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.4303496,
+     'top_1_accuracy': 0.43352753,
+     'top_5_accuracy': 0.70789194,
+     'validation_loss': 3.179832}
+train | step:  18720 | training until step 19008...
+train | step:  19008 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9690755,
+     'learning_rate': 0.0038368253,
+     'top_1_accuracy': 0.9696181,
+     'top_5_accuracy': 0.9979384,
+     'training_loss': 0.12539399}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-19008.
+ eval | step:  19008 | running 288 steps of evaluation...
+ eval | step:  19008 | eval time:   61.2 sec | output: 
+    {'accuracy': 0.41816738,
+     'top_1_accuracy': 0.42002118,
+     'top_5_accuracy': 0.71239406,
+     'validation_loss': 3.1874006}
+train | step:  19008 | training until step 19296...
+train | step:  19296 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.96343315,
+     'learning_rate': 0.0038368253,
+     'top_1_accuracy': 0.96451825,
+     'top_5_accuracy': 0.9983724,
+     'training_loss': 0.13576043}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-19296.
+ eval | step:  19296 | running 288 steps of evaluation...
+ eval | step:  19296 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.43379238,
+     'top_1_accuracy': 0.4367055,
+     'top_5_accuracy': 0.7129237,
+     'validation_loss': 3.0945718}
+train | step:  19296 | training until step 19584...
+train | step:  19584 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9728733,
+     'learning_rate': 0.0036833521,
+     'top_1_accuracy': 0.9734158,
+     'top_5_accuracy': 0.99891496,
+     'training_loss': 0.10832616}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-19584.
+ eval | step:  19584 | running 288 steps of evaluation...
+ eval | step:  19584 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.44147247,
+     'top_1_accuracy': 0.4435911,
+     'top_5_accuracy': 0.7174258,
+     'validation_loss': 2.9549875}
+train | step:  19584 | training until step 19872...
+train | step:  19872 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.97124565,
+     'learning_rate': 0.0036833521,
+     'top_1_accuracy': 0.9716797,
+     'top_5_accuracy': 0.99924046,
+     'training_loss': 0.110653594}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-19872.
+ eval | step:  19872 | running 288 steps of evaluation...
+ eval | step:  19872 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4348517,
+     'top_1_accuracy': 0.4375,
+     'top_5_accuracy': 0.7216631,
+     'validation_loss': 3.1110911}
+train | step:  19872 | training until step 20160...
+train | step:  20160 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.97276473,
+     'learning_rate': 0.0036833521,
+     'top_1_accuracy': 0.9733073,
+     'top_5_accuracy': 0.99902344,
+     'training_loss': 0.10533496}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-20160.
+ eval | step:  20160 | running 288 steps of evaluation...
+ eval | step:  20160 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4592161,
+     'top_1_accuracy': 0.4610699,
+     'top_5_accuracy': 0.72616524,
+     'validation_loss': 2.9934304}
+train | step:  20160 | training until step 20448...
+train | step:  20448 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9733073,
+     'learning_rate': 0.0036833521,
+     'top_1_accuracy': 0.9746094,
+     'top_5_accuracy': 0.99891496,
+     'training_loss': 0.10551836}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-20448.
+ eval | step:  20448 | running 288 steps of evaluation...
+ eval | step:  20448 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.45153603,
+     'top_1_accuracy': 0.45365465,
+     'top_5_accuracy': 0.72086865,
+     'validation_loss': 3.0253844}
+train | step:  20448 | training until step 20736...
+train | step:  20736 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9736328,
+     'learning_rate': 0.003536018,
+     'top_1_accuracy': 0.9750434,
+     'top_5_accuracy': 0.99902344,
+     'training_loss': 0.09922817}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-20736.
+ eval | step:  20736 | running 288 steps of evaluation...
+ eval | step:  20736 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.46133474,
+     'top_1_accuracy': 0.4637182,
+     'top_5_accuracy': 0.7314619,
+     'validation_loss': 2.8643656}
+train | step:  20736 | training until step 21024...
+train | step:  21024 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.976888,
+     'learning_rate': 0.003536018,
+     'top_1_accuracy': 0.97786456,
+     'top_5_accuracy': 0.99869794,
+     'training_loss': 0.10122463}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-21024.
+ eval | step:  21024 | running 288 steps of evaluation...
+ eval | step:  21024 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.45868644,
+     'top_1_accuracy': 0.4602754,
+     'top_5_accuracy': 0.7288136,
+     'validation_loss': 2.9837558}
+train | step:  21024 | training until step 21312...
+train | step:  21312 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.97439235,
+     'learning_rate': 0.003536018,
+     'top_1_accuracy': 0.9748264,
+     'top_5_accuracy': 0.99934894,
+     'training_loss': 0.0971128}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-21312.
+ eval | step:  21312 | running 288 steps of evaluation...
+ eval | step:  21312 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.44279662,
+     'top_1_accuracy': 0.4451801,
+     'top_5_accuracy': 0.7184852,
+     'validation_loss': 3.0616875}
+train | step:  21312 | training until step 21600...
+train | step:  21600 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.97873265,
+     'learning_rate': 0.0033945772,
+     'top_1_accuracy': 0.9793837,
+     'top_5_accuracy': 0.99934894,
+     'training_loss': 0.088944316}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-21600.
+ eval | step:  21600 | running 288 steps of evaluation...
+ eval | step:  21600 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4504767,
+     'top_1_accuracy': 0.45444915,
+     'top_5_accuracy': 0.7362288,
+     'validation_loss': 2.9622629}
+train | step:  21600 | training until step 21888...
+train | step:  21888 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.976888,
+     'learning_rate': 0.0033945772,
+     'top_1_accuracy': 0.97721356,
+     'top_5_accuracy': 0.9991319,
+     'training_loss': 0.09331115}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-21888.
+ eval | step:  21888 | running 288 steps of evaluation...
+ eval | step:  21888 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.44332626,
+     'top_1_accuracy': 0.4443856,
+     'top_5_accuracy': 0.7092161,
+     'validation_loss': 3.2746005}
+train | step:  21888 | training until step 22176...
+train | step:  22176 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9793837,
+     'learning_rate': 0.0033945772,
+     'top_1_accuracy': 0.9798177,
+     'top_5_accuracy': 0.99924046,
+     'training_loss': 0.0856861}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-22176.
+ eval | step:  22176 | running 288 steps of evaluation...
+ eval | step:  22176 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4425318,
+     'top_1_accuracy': 0.4454449,
+     'top_5_accuracy': 0.71054024,
+     'validation_loss': 3.078339}
+train | step:  22176 | training until step 22464...
+train | step:  22464 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.97764754,
+     'learning_rate': 0.0033945772,
+     'top_1_accuracy': 0.9785156,
+     'top_5_accuracy': 0.9996745,
+     'training_loss': 0.08267022}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-22464.
+ eval | step:  22464 | running 288 steps of evaluation...
+ eval | step:  22464 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.4287606,
+     'top_1_accuracy': 0.43087924,
+     'top_5_accuracy': 0.70100635,
+     'validation_loss': 3.1645377}
+train | step:  22464 | training until step 22752...
+train | step:  22752 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9779731,
+     'learning_rate': 0.003258794,
+     'top_1_accuracy': 0.9785156,
+     'top_5_accuracy': 0.9991319,
+     'training_loss': 0.09099546}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-22752.
+ eval | step:  22752 | running 288 steps of evaluation...
+ eval | step:  22752 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.45127118,
+     'top_1_accuracy': 0.45259535,
+     'top_5_accuracy': 0.7319915,
+     'validation_loss': 2.988819}
+train | step:  22752 | training until step 23040...
+train | step:  23040 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9793837,
+     'learning_rate': 0.003258794,
+     'top_1_accuracy': 0.9800347,
+     'top_5_accuracy': 0.9994575,
+     'training_loss': 0.081191316}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-23040.
+ eval | step:  23040 | running 288 steps of evaluation...
+ eval | step:  23040 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.46318856,
+     'top_1_accuracy': 0.46477753,
+     'top_5_accuracy': 0.7272246,
+     'validation_loss': 3.0058606}
+train | step:  23040 | training until step 23328...
+train | step:  23328 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9827474,
+     'learning_rate': 0.003258794,
+     'top_1_accuracy': 0.98307294,
+     'top_5_accuracy': 0.99924046,
+     'training_loss': 0.072817884}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-23328.
+ eval | step:  23328 | running 288 steps of evaluation...
+ eval | step:  23328 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.453125,
+     'top_1_accuracy': 0.45524365,
+     'top_5_accuracy': 0.7176907,
+     'validation_loss': 3.0732496}
+train | step:  23328 | training until step 23616...
+train | step:  23616 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9810113,
+     'learning_rate': 0.0031284422,
+     'top_1_accuracy': 0.9814453,
+     'top_5_accuracy': 0.9994575,
+     'training_loss': 0.07547553}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-23616.
+ eval | step:  23616 | running 288 steps of evaluation...
+ eval | step:  23616 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.4496822,
+     'top_1_accuracy': 0.4523305,
+     'top_5_accuracy': 0.72643006,
+     'validation_loss': 3.083092}
+train | step:  23616 | training until step 23904...
+train | step:  23904 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9823134,
+     'learning_rate': 0.0031284422,
+     'top_1_accuracy': 0.9829644,
+     'top_5_accuracy': 0.99956596,
+     'training_loss': 0.068611234}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-23904.
+ eval | step:  23904 | running 288 steps of evaluation...
+ eval | step:  23904 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.43008474,
+     'top_1_accuracy': 0.43167374,
+     'top_5_accuracy': 0.7012712,
+     'validation_loss': 3.308677}
+train | step:  23904 | training until step 24192...
+train | step:  24192 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.98220485,
+     'learning_rate': 0.0031284422,
+     'top_1_accuracy': 0.98253036,
+     'top_5_accuracy': 0.9991319,
+     'training_loss': 0.075855576}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-24192.
+ eval | step:  24192 | running 288 steps of evaluation...
+ eval | step:  24192 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.47351694,
+     'top_1_accuracy': 0.4759004,
+     'top_5_accuracy': 0.7346398,
+     'validation_loss': 2.9083445}
+train | step:  24192 | training until step 24480...
+train | step:  24480 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9838325,
+     'learning_rate': 0.0031284422,
+     'top_1_accuracy': 0.9844835,
+     'top_5_accuracy': 0.9996745,
+     'training_loss': 0.06461095}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-24480.
+ eval | step:  24480 | running 288 steps of evaluation...
+ eval | step:  24480 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.45709747,
+     'top_1_accuracy': 0.46054026,
+     'top_5_accuracy': 0.7190148,
+     'validation_loss': 2.972188}
+train | step:  24480 | training until step 24768...
+train | step:  24768 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9823134,
+     'learning_rate': 0.0030033046,
+     'top_1_accuracy': 0.98253036,
+     'top_5_accuracy': 0.99956596,
+     'training_loss': 0.067979224}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-24768.
+ eval | step:  24768 | running 288 steps of evaluation...
+ eval | step:  24768 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.4496822,
+     'top_1_accuracy': 0.45153603,
+     'top_5_accuracy': 0.7232521,
+     'validation_loss': 3.0940757}
+train | step:  24768 | training until step 25056...
+train | step:  25056 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9820964,
+     'learning_rate': 0.0030033046,
+     'top_1_accuracy': 0.98253036,
+     'top_5_accuracy': 0.99924046,
+     'training_loss': 0.06845203}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-25056.
+ eval | step:  25056 | running 288 steps of evaluation...
+ eval | step:  25056 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.45206568,
+     'top_1_accuracy': 0.45338982,
+     'top_5_accuracy': 0.73225635,
+     'validation_loss': 3.0369093}
+train | step:  25056 | training until step 25344...
+train | step:  25344 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9871962,
+     'learning_rate': 0.0030033046,
+     'top_1_accuracy': 0.9873047,
+     'top_5_accuracy': 0.9994575,
+     'training_loss': 0.05907838}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-25344.
+ eval | step:  25344 | running 288 steps of evaluation...
+ eval | step:  25344 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.45365465,
+     'top_1_accuracy': 0.45762712,
+     'top_5_accuracy': 0.72378176,
+     'validation_loss': 2.9882374}
+train | step:  25344 | training until step 25632...
+train | step:  25632 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9855686,
+     'learning_rate': 0.0028831721,
+     'top_1_accuracy': 0.9858941,
+     'top_5_accuracy': 0.99956596,
+     'training_loss': 0.061860844}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-25632.
+ eval | step:  25632 | running 288 steps of evaluation...
+ eval | step:  25632 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4581568,
+     'top_1_accuracy': 0.46292374,
+     'top_5_accuracy': 0.7351695,
+     'validation_loss': 3.0391314}
+train | step:  25632 | training until step 25920...
+train | step:  25920 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9873047,
+     'learning_rate': 0.0028831721,
+     'top_1_accuracy': 0.9875217,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.055878572}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-25920.
+ eval | step:  25920 | running 288 steps of evaluation...
+ eval | step:  25920 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.46901482,
+     'top_1_accuracy': 0.47113347,
+     'top_5_accuracy': 0.7513242,
+     'validation_loss': 2.948155}
+train | step:  25920 | training until step 26208...
+train | step:  26208 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.98708767,
+     'learning_rate': 0.0028831721,
+     'top_1_accuracy': 0.9876302,
+     'top_5_accuracy': 0.99956596,
+     'training_loss': 0.056084666}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-26208.
+ eval | step:  26208 | running 288 steps of evaluation...
+ eval | step:  26208 | eval time:   61.2 sec | output: 
+    {'accuracy': 0.4721928,
+     'top_1_accuracy': 0.4756356,
+     'top_5_accuracy': 0.7304025,
+     'validation_loss': 2.9758852}
+train | step:  26208 | training until step 26496...
+train | step:  26496 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9844835,
+     'learning_rate': 0.0028831721,
+     'top_1_accuracy': 0.98513454,
+     'top_5_accuracy': 0.99924046,
+     'training_loss': 0.062914275}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-26496.
+ eval | step:  26496 | running 288 steps of evaluation...
+ eval | step:  26496 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.47907838,
+     'top_1_accuracy': 0.4809322,
+     'top_5_accuracy': 0.7486758,
+     'validation_loss': 2.9206073}
+train | step:  26496 | training until step 26784...
+train | step:  26784 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9798177,
+     'learning_rate': 0.0027678453,
+     'top_1_accuracy': 0.98014325,
+     'top_5_accuracy': 0.9988064,
+     'training_loss': 0.07709762}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-26784.
+ eval | step:  26784 | running 288 steps of evaluation...
+ eval | step:  26784 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.45762712,
+     'top_1_accuracy': 0.46054026,
+     'top_5_accuracy': 0.72669494,
+     'validation_loss': 2.985308}
+train | step:  26784 | training until step 27072...
+train | step:  27072 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9876302,
+     'learning_rate': 0.0027678453,
+     'top_1_accuracy': 0.9878472,
+     'top_5_accuracy': 0.99924046,
+     'training_loss': 0.056355365}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-27072.
+ eval | step:  27072 | running 288 steps of evaluation...
+ eval | step:  27072 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4809322,
+     'top_1_accuracy': 0.48199153,
+     'top_5_accuracy': 0.73755294,
+     'validation_loss': 2.935932}
+train | step:  27072 | training until step 27360...
+train | step:  27360 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9852431,
+     'learning_rate': 0.0027678453,
+     'top_1_accuracy': 0.9860026,
+     'top_5_accuracy': 0.999783,
+     'training_loss': 0.057904217}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-27360.
+ eval | step:  27360 | running 288 steps of evaluation...
+ eval | step:  27360 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.4608051,
+     'top_1_accuracy': 0.4626589,
+     'top_5_accuracy': 0.71822035,
+     'validation_loss': 3.091685}
+train | step:  27360 | training until step 27648...
+train | step:  27648 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.98795575,
+     'learning_rate': 0.0026571313,
+     'top_1_accuracy': 0.9880642,
+     'top_5_accuracy': 0.9996745,
+     'training_loss': 0.0514645}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-27648.
+ eval | step:  27648 | running 288 steps of evaluation...
+ eval | step:  27648 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.4661017,
+     'top_1_accuracy': 0.4679555,
+     'top_5_accuracy': 0.74099576,
+     'validation_loss': 2.8957121}
+train | step:  27648 | training until step 27936...
+train | step:  27936 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9878472,
+     'learning_rate': 0.0026571313,
+     'top_1_accuracy': 0.98838973,
+     'top_5_accuracy': 0.9996745,
+     'training_loss': 0.05115302}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-27936.
+ eval | step:  27936 | running 288 steps of evaluation...
+ eval | step:  27936 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4504767,
+     'top_1_accuracy': 0.45259535,
+     'top_5_accuracy': 0.7314619,
+     'validation_loss': 3.08749}
+train | step:  27936 | training until step 28224...
+train | step:  28224 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9901259,
+     'learning_rate': 0.0026571313,
+     'top_1_accuracy': 0.9902344,
+     'top_5_accuracy': 0.99956596,
+     'training_loss': 0.046435308}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-28224.
+ eval | step:  28224 | running 288 steps of evaluation...
+ eval | step:  28224 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.47113347,
+     'top_1_accuracy': 0.4737818,
+     'top_5_accuracy': 0.73490465,
+     'validation_loss': 2.9560792}
+train | step:  28224 | training until step 28512...
+train | step:  28512 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9899089,
+     'learning_rate': 0.0026571313,
+     'top_1_accuracy': 0.9904514,
+     'top_5_accuracy': 0.9994575,
+     'training_loss': 0.046651352}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-28512.
+ eval | step:  28512 | running 288 steps of evaluation...
+ eval | step:  28512 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.4695445,
+     'top_1_accuracy': 0.47166315,
+     'top_5_accuracy': 0.7428496,
+     'validation_loss': 2.9294178}
+train | step:  28512 | training until step 28800...
+train | step:  28800 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9895833,
+     'learning_rate': 0.0025508462,
+     'top_1_accuracy': 0.9899089,
+     'top_5_accuracy': 0.9996745,
+     'training_loss': 0.04672243}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-28800.
+ eval | step:  28800 | running 288 steps of evaluation...
+ eval | step:  28800 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.47431144,
+     'top_1_accuracy': 0.4766949,
+     'top_5_accuracy': 0.7404661,
+     'validation_loss': 2.9736884}
+train | step:  28800 | training until step 29088...
+train | step:  29088 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9902344,
+     'learning_rate': 0.0025508462,
+     'top_1_accuracy': 0.9904514,
+     'top_5_accuracy': 0.9996745,
+     'training_loss': 0.043849368}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-29088.
+ eval | step:  29088 | running 288 steps of evaluation...
+ eval | step:  29088 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4801377,
+     'top_1_accuracy': 0.48331568,
+     'top_5_accuracy': 0.7486758,
+     'validation_loss': 2.8770244}
+train | step:  29088 | training until step 29376...
+train | step:  29376 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9924045,
+     'learning_rate': 0.0025508462,
+     'top_1_accuracy': 0.99262154,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.039142177}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-29376.
+ eval | step:  29376 | running 288 steps of evaluation...
+ eval | step:  29376 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.45868644,
+     'top_1_accuracy': 0.46054026,
+     'top_5_accuracy': 0.74496824,
+     'validation_loss': 2.9641392}
+train | step:  29376 | training until step 29664...
+train | step:  29664 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9905599,
+     'learning_rate': 0.0025508462,
+     'top_1_accuracy': 0.99121094,
+     'top_5_accuracy': 0.9994575,
+     'training_loss': 0.04534234}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-29664.
+ eval | step:  29664 | running 288 steps of evaluation...
+ eval | step:  29664 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.46557203,
+     'top_1_accuracy': 0.46742585,
+     'top_5_accuracy': 0.7245763,
+     'validation_loss': 3.087404}
+train | step:  29664 | training until step 29952...
+train | step:  29952 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9895833,
+     'learning_rate': 0.0024488121,
+     'top_1_accuracy': 0.98980033,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.04339131}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-29952.
+ eval | step:  29952 | running 288 steps of evaluation...
+ eval | step:  29952 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.4713983,
+     'top_1_accuracy': 0.47325212,
+     'top_5_accuracy': 0.7272246,
+     'validation_loss': 3.0255384}
+train | step:  29952 | training until step 30240...
+train | step:  30240 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9906684,
+     'learning_rate': 0.0024488121,
+     'top_1_accuracy': 0.9909939,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.04199572}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-30240.
+ eval | step:  30240 | running 288 steps of evaluation...
+ eval | step:  30240 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.47325212,
+     'top_1_accuracy': 0.4759004,
+     'top_5_accuracy': 0.7282839,
+     'validation_loss': 2.9849024}
+train | step:  30240 | training until step 30528...
+train | step:  30528 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9893663,
+     'learning_rate': 0.0024488121,
+     'top_1_accuracy': 0.98947483,
+     'top_5_accuracy': 0.99956596,
+     'training_loss': 0.04376724}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-30528.
+ eval | step:  30528 | running 288 steps of evaluation...
+ eval | step:  30528 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.47775424,
+     'top_1_accuracy': 0.48119703,
+     'top_5_accuracy': 0.7351695,
+     'validation_loss': 2.9029012}
+train | step:  30528 | training until step 30816...
+train | step:  30816 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9919705,
+     'learning_rate': 0.0023508598,
+     'top_1_accuracy': 0.9921875,
+     'top_5_accuracy': 0.999783,
+     'training_loss': 0.039939404}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-30816.
+ eval | step:  30816 | running 288 steps of evaluation...
+ eval | step:  30816 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.45497882,
+     'top_1_accuracy': 0.4581568,
+     'top_5_accuracy': 0.7195445,
+     'validation_loss': 3.0362306}
+train | step:  30816 | training until step 31104...
+train | step:  31104 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.98980033,
+     'learning_rate': 0.0023508598,
+     'top_1_accuracy': 0.9901259,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.040899348}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-31104.
+ eval | step:  31104 | running 288 steps of evaluation...
+ eval | step:  31104 | eval time:   69.3 sec | output: 
+    {'accuracy': 0.4653072,
+     'top_1_accuracy': 0.46822035,
+     'top_5_accuracy': 0.7282839,
+     'validation_loss': 3.0740657}
+train | step:  31104 | training until step 31392...
+train | step:  31392 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9892578,
+     'learning_rate': 0.0023508598,
+     'top_1_accuracy': 0.9893663,
+     'top_5_accuracy': 0.99956596,
+     'training_loss': 0.045116644}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-31392.
+ eval | step:  31392 | running 288 steps of evaluation...
+ eval | step:  31392 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.47695974,
+     'top_1_accuracy': 0.47907838,
+     'top_5_accuracy': 0.7412606,
+     'validation_loss': 2.9528706}
+train | step:  31392 | training until step 31680...
+train | step:  31680 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9906684,
+     'learning_rate': 0.0023508598,
+     'top_1_accuracy': 0.99121094,
+     'top_5_accuracy': 0.999783,
+     'training_loss': 0.041133624}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-31680.
+ eval | step:  31680 | running 288 steps of evaluation...
+ eval | step:  31680 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.46927965,
+     'top_1_accuracy': 0.47166315,
+     'top_5_accuracy': 0.73066735,
+     'validation_loss': 2.9577494}
+train | step:  31680 | training until step 31968...
+train | step:  31968 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9939236,
+     'learning_rate': 0.0022568253,
+     'top_1_accuracy': 0.99403214,
+     'top_5_accuracy': 0.999783,
+     'training_loss': 0.034260835}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-31968.
+ eval | step:  31968 | running 288 steps of evaluation...
+ eval | step:  31968 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.47695974,
+     'top_1_accuracy': 0.47881356,
+     'top_5_accuracy': 0.7346398,
+     'validation_loss': 2.9670923}
+train | step:  31968 | training until step 32256...
+train | step:  32256 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99294704,
+     'learning_rate': 0.0022568253,
+     'top_1_accuracy': 0.9930556,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.035256434}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-32256.
+ eval | step:  32256 | running 288 steps of evaluation...
+ eval | step:  32256 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.46345338,
+     'top_1_accuracy': 0.4661017,
+     'top_5_accuracy': 0.7362288,
+     'validation_loss': 2.941021}
+train | step:  32256 | training until step 32544...
+train | step:  32544 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.991862,
+     'learning_rate': 0.0022568253,
+     'top_1_accuracy': 0.9921875,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.037242875}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-32544.
+ eval | step:  32544 | running 288 steps of evaluation...
+ eval | step:  32544 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.4618644,
+     'top_1_accuracy': 0.4637182,
+     'top_5_accuracy': 0.7333157,
+     'validation_loss': 2.971493}
+train | step:  32544 | training until step 32832...
+train | step:  32832 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9909939,
+     'learning_rate': 0.0021665522,
+     'top_1_accuracy': 0.99142796,
+     'top_5_accuracy': 0.9996745,
+     'training_loss': 0.039551463}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-32832.
+ eval | step:  32832 | running 288 steps of evaluation...
+ eval | step:  32832 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.47086865,
+     'top_1_accuracy': 0.47404662,
+     'top_5_accuracy': 0.7317267,
+     'validation_loss': 3.0177593}
+train | step:  32832 | training until step 33120...
+train | step:  33120 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9913194,
+     'learning_rate': 0.0021665522,
+     'top_1_accuracy': 0.9913194,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.037051663}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-33120.
+ eval | step:  33120 | running 288 steps of evaluation...
+ eval | step:  33120 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.47537076,
+     'top_1_accuracy': 0.47695974,
+     'top_5_accuracy': 0.7465572,
+     'validation_loss': 2.9710422}
+train | step:  33120 | training until step 33408...
+train | step:  33408 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.992513,
+     'learning_rate': 0.0021665522,
+     'top_1_accuracy': 0.99262154,
+     'top_5_accuracy': 0.999783,
+     'training_loss': 0.03378482}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-33408.
+ eval | step:  33408 | running 288 steps of evaluation...
+ eval | step:  33408 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.47325212,
+     'top_1_accuracy': 0.4756356,
+     'top_5_accuracy': 0.7510593,
+     'validation_loss': 2.9615796}
+train | step:  33408 | training until step 33696...
+train | step:  33696 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99294704,
+     'learning_rate': 0.0021665522,
+     'top_1_accuracy': 0.9930556,
+     'top_5_accuracy': 0.999783,
+     'training_loss': 0.034382023}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-33696.
+ eval | step:  33696 | running 288 steps of evaluation...
+ eval | step:  33696 | eval time:   60.6 sec | output: 
+    {'accuracy': 0.44067797,
+     'top_1_accuracy': 0.44226694,
+     'top_5_accuracy': 0.70948094,
+     'validation_loss': 3.0784426}
+train | step:  33696 | training until step 33984...
+train | step:  33984 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9921875,
+     'learning_rate': 0.00207989,
+     'top_1_accuracy': 0.9924045,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.036253937}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-33984.
+ eval | step:  33984 | running 288 steps of evaluation...
+ eval | step:  33984 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.47510594,
+     'top_1_accuracy': 0.4782839,
+     'top_5_accuracy': 0.7372881,
+     'validation_loss': 2.9397068}
+train | step:  33984 | training until step 34272...
+train | step:  34272 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99316406,
+     'learning_rate': 0.00207989,
+     'top_1_accuracy': 0.99327254,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.03102658}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-34272.
+ eval | step:  34272 | running 288 steps of evaluation...
+ eval | step:  34272 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.47907838,
+     'top_1_accuracy': 0.48040253,
+     'top_5_accuracy': 0.7325212,
+     'validation_loss': 3.0231528}
+train | step:  34272 | training until step 34560...
+train | step:  34560 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9913194,
+     'learning_rate': 0.00207989,
+     'top_1_accuracy': 0.99153644,
+     'top_5_accuracy': 0.9996745,
+     'training_loss': 0.037811533}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-34560.
+ eval | step:  34560 | running 288 steps of evaluation...
+ eval | step:  34560 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.48331568,
+     'top_1_accuracy': 0.48596397,
+     'top_5_accuracy': 0.73940676,
+     'validation_loss': 2.9161465}
+train | step:  34560 | training until step 34848...
+train | step:  34848 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.992513,
+     'learning_rate': 0.0019966944,
+     'top_1_accuracy': 0.99262154,
+     'top_5_accuracy': 0.999783,
+     'training_loss': 0.033130806}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-34848.
+ eval | step:  34848 | running 288 steps of evaluation...
+ eval | step:  34848 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.49337924,
+     'top_1_accuracy': 0.49470338,
+     'top_5_accuracy': 0.7560911,
+     'validation_loss': 2.852335}
+train | step:  34848 | training until step 35136...
+train | step:  35136 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99435765,
+     'learning_rate': 0.0019966944,
+     'top_1_accuracy': 0.99435765,
+     'top_5_accuracy': 0.999783,
+     'training_loss': 0.02855048}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-35136.
+ eval | step:  35136 | running 288 steps of evaluation...
+ eval | step:  35136 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.4759004,
+     'top_1_accuracy': 0.47960806,
+     'top_5_accuracy': 0.7447034,
+     'validation_loss': 2.9407496}
+train | step:  35136 | training until step 35424...
+train | step:  35424 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99294704,
+     'learning_rate': 0.0019966944,
+     'top_1_accuracy': 0.9930556,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.03249391}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-35424.
+ eval | step:  35424 | running 288 steps of evaluation...
+ eval | step:  35424 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.47907838,
+     'top_1_accuracy': 0.48146185,
+     'top_5_accuracy': 0.7404661,
+     'validation_loss': 2.9675636}
+train | step:  35424 | training until step 35712...
+train | step:  35712 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99403214,
+     'learning_rate': 0.0019966944,
+     'top_1_accuracy': 0.9942491,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.027805852}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-35712.
+ eval | step:  35712 | running 288 steps of evaluation...
+ eval | step:  35712 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.48887712,
+     'top_1_accuracy': 0.49099576,
+     'top_5_accuracy': 0.7518538,
+     'validation_loss': 2.8118908}
+train | step:  35712 | training until step 36000...
+train | step:  36000 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9935981,
+     'learning_rate': 0.0019168266,
+     'top_1_accuracy': 0.9935981,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.029582169}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-36000.
+ eval | step:  36000 | running 288 steps of evaluation...
+ eval | step:  36000 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.48569915,
+     'top_1_accuracy': 0.48675847,
+     'top_5_accuracy': 0.74231994,
+     'validation_loss': 2.883586}
+train | step:  36000 | training until step 36288...
+train | step:  36288 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9930556,
+     'learning_rate': 0.0019168266,
+     'top_1_accuracy': 0.99316406,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.03201164}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-36288.
+ eval | step:  36288 | running 288 steps of evaluation...
+ eval | step:  36288 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.49258474,
+     'top_1_accuracy': 0.4939089,
+     'top_5_accuracy': 0.7428496,
+     'validation_loss': 2.8666198}
+train | step:  36288 | training until step 36576...
+train | step:  36576 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9947917,
+     'learning_rate': 0.0019168266,
+     'top_1_accuracy': 0.99490017,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.026858358}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-36576.
+ eval | step:  36576 | running 288 steps of evaluation...
+ eval | step:  36576 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.49364406,
+     'top_1_accuracy': 0.49443856,
+     'top_5_accuracy': 0.74788135,
+     'validation_loss': 2.91026}
+train | step:  36576 | training until step 36864...
+train | step:  36864 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99403214,
+     'learning_rate': 0.0018401535,
+     'top_1_accuracy': 0.9941406,
+     'top_5_accuracy': 0.9996745,
+     'training_loss': 0.029290788}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-36864.
+ eval | step:  36864 | running 288 steps of evaluation...
+ eval | step:  36864 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4817267,
+     'top_1_accuracy': 0.48411018,
+     'top_5_accuracy': 0.74099576,
+     'validation_loss': 2.9822047}
+train | step:  36864 | training until step 37152...
+train | step:  37152 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9954427,
+     'learning_rate': 0.0018401535,
+     'top_1_accuracy': 0.9956597,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.026510887}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-37152.
+ eval | step:  37152 | running 288 steps of evaluation...
+ eval | step:  37152 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.48808262,
+     'top_1_accuracy': 0.49179026,
+     'top_5_accuracy': 0.7465572,
+     'validation_loss': 2.8936043}
+train | step:  37152 | training until step 37440...
+train | step:  37440 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9950087,
+     'learning_rate': 0.0018401535,
+     'top_1_accuracy': 0.9950087,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.025058866}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-37440.
+ eval | step:  37440 | running 288 steps of evaluation...
+ eval | step:  37440 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.48808262,
+     'top_1_accuracy': 0.49073094,
+     'top_5_accuracy': 0.7378178,
+     'validation_loss': 2.9214818}
+train | step:  37440 | training until step 37728...
+train | step:  37728 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99348956,
+     'learning_rate': 0.0018401535,
+     'top_1_accuracy': 0.9935981,
+     'top_5_accuracy': 0.99956596,
+     'training_loss': 0.03057368}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-37728.
+ eval | step:  37728 | running 288 steps of evaluation...
+ eval | step:  37728 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.48596397,
+     'top_1_accuracy': 0.4878178,
+     'top_5_accuracy': 0.7362288,
+     'validation_loss': 2.8880653}
+train | step:  37728 | training until step 38016...
+train | step:  38016 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9954427,
+     'learning_rate': 0.0017665473,
+     'top_1_accuracy': 0.9955512,
+     'top_5_accuracy': 0.999783,
+     'training_loss': 0.025287343}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-38016.
+ eval | step:  38016 | running 288 steps of evaluation...
+ eval | step:  38016 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.48728815,
+     'top_1_accuracy': 0.48967162,
+     'top_5_accuracy': 0.7386123,
+     'validation_loss': 2.9300103}
+train | step:  38016 | training until step 38304...
+train | step:  38304 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99316406,
+     'learning_rate': 0.0017665473,
+     'top_1_accuracy': 0.99327254,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.028998341}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-38304.
+ eval | step:  38304 | running 288 steps of evaluation...
+ eval | step:  38304 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.4835805,
+     'top_1_accuracy': 0.48596397,
+     'top_5_accuracy': 0.7447034,
+     'validation_loss': 2.899585}
+train | step:  38304 | training until step 38592...
+train | step:  38592 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9937066,
+     'learning_rate': 0.0017665473,
+     'top_1_accuracy': 0.99403214,
+     'top_5_accuracy': 0.999783,
+     'training_loss': 0.028987488}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-38592.
+ eval | step:  38592 | running 288 steps of evaluation...
+ eval | step:  38592 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.47801906,
+     'top_1_accuracy': 0.47960806,
+     'top_5_accuracy': 0.7319915,
+     'validation_loss': 3.0080903}
+train | step:  38592 | training until step 38880...
+train | step:  38880 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9958767,
+     'learning_rate': 0.0017665473,
+     'top_1_accuracy': 0.99598527,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.025268693}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-38880.
+ eval | step:  38880 | running 288 steps of evaluation...
+ eval | step:  38880 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.49682203,
+     'top_1_accuracy': 0.49894068,
+     'top_5_accuracy': 0.75794494,
+     'validation_loss': 2.873727}
+train | step:  38880 | training until step 39168...
+train | step:  39168 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9956597,
+     'learning_rate': 0.0016958853,
+     'top_1_accuracy': 0.9956597,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.023288604}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-39168.
+ eval | step:  39168 | running 288 steps of evaluation...
+ eval | step:  39168 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.47457626,
+     'top_1_accuracy': 0.4756356,
+     'top_5_accuracy': 0.7428496,
+     'validation_loss': 2.996368}
+train | step:  39168 | training until step 39456...
+train | step:  39456 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9958767,
+     'learning_rate': 0.0016958853,
+     'top_1_accuracy': 0.9958767,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.024926143}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-39456.
+ eval | step:  39456 | running 288 steps of evaluation...
+ eval | step:  39456 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.48411018,
+     'top_1_accuracy': 0.48728815,
+     'top_5_accuracy': 0.75211865,
+     'validation_loss': 2.9055412}
+train | step:  39456 | training until step 39744...
+train | step:  39744 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99490017,
+     'learning_rate': 0.0016958853,
+     'top_1_accuracy': 0.9951172,
+     'top_5_accuracy': 0.999783,
+     'training_loss': 0.023741458}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-39744.
+ eval | step:  39744 | running 288 steps of evaluation...
+ eval | step:  39744 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4870233,
+     'top_1_accuracy': 0.48914194,
+     'top_5_accuracy': 0.74099576,
+     'validation_loss': 2.9191473}
+train | step:  39744 | training until step 40032...
+train | step:  40032 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9955512,
+     'learning_rate': 0.0016280499,
+     'top_1_accuracy': 0.9955512,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.022458646}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-40032.
+ eval | step:  40032 | running 288 steps of evaluation...
+ eval | step:  40032 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.48490465,
+     'top_1_accuracy': 0.4870233,
+     'top_5_accuracy': 0.748411,
+     'validation_loss': 2.89921}
+train | step:  40032 | training until step 40320...
+train | step:  40320 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99490017,
+     'learning_rate': 0.0016280499,
+     'top_1_accuracy': 0.9951172,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.025504304}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-40320.
+ eval | step:  40320 | running 288 steps of evaluation...
+ eval | step:  40320 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.48622882,
+     'top_1_accuracy': 0.48834747,
+     'top_5_accuracy': 0.7415254,
+     'validation_loss': 2.9292445}
+train | step:  40320 | training until step 40608...
+train | step:  40608 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99490017,
+     'learning_rate': 0.0016280499,
+     'top_1_accuracy': 0.9950087,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.024068436}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-40608.
+ eval | step:  40608 | running 288 steps of evaluation...
+ eval | step:  40608 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4756356,
+     'top_1_accuracy': 0.47960806,
+     'top_5_accuracy': 0.7314619,
+     'validation_loss': 2.958062}
+train | step:  40608 | training until step 40896...
+train | step:  40896 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99468315,
+     'learning_rate': 0.0016280499,
+     'top_1_accuracy': 0.9950087,
+     'top_5_accuracy': 0.999783,
+     'training_loss': 0.02628549}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-40896.
+ eval | step:  40896 | running 288 steps of evaluation...
+ eval | step:  40896 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.47060382,
+     'top_1_accuracy': 0.47192797,
+     'top_5_accuracy': 0.7288136,
+     'validation_loss': 3.0462086}
+train | step:  40896 | training until step 41184...
+train | step:  41184 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99468315,
+     'learning_rate': 0.001562928,
+     'top_1_accuracy': 0.9947917,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.024968976}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-41184.
+ eval | step:  41184 | running 288 steps of evaluation...
+ eval | step:  41184 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.48622882,
+     'top_1_accuracy': 0.4878178,
+     'top_5_accuracy': 0.74337924,
+     'validation_loss': 2.8944342}
+train | step:  41184 | training until step 41472...
+train | step:  41472 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9953342,
+     'learning_rate': 0.001562928,
+     'top_1_accuracy': 0.9953342,
+     'top_5_accuracy': 0.9996745,
+     'training_loss': 0.022795817}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-41472.
+ eval | step:  41472 | running 288 steps of evaluation...
+ eval | step:  41472 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.4793432,
+     'top_1_accuracy': 0.48066738,
+     'top_5_accuracy': 0.73914194,
+     'validation_loss': 2.9287753}
+train | step:  41472 | training until step 41760...
+train | step:  41760 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9963108,
+     'learning_rate': 0.001562928,
+     'top_1_accuracy': 0.9963108,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.021209251}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-41760.
+ eval | step:  41760 | running 288 steps of evaluation...
+ eval | step:  41760 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.48331568,
+     'top_1_accuracy': 0.48596397,
+     'top_5_accuracy': 0.74337924,
+     'validation_loss': 2.938528}
+train | step:  41760 | training until step 42048...
+train | step:  42048 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9963108,
+     'learning_rate': 0.0015004107,
+     'top_1_accuracy': 0.9965278,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.02100777}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-42048.
+ eval | step:  42048 | running 288 steps of evaluation...
+ eval | step:  42048 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.4949682,
+     'top_1_accuracy': 0.49682203,
+     'top_5_accuracy': 0.7470869,
+     'validation_loss': 2.8948336}
+train | step:  42048 | training until step 42336...
+train | step:  42336 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9965278,
+     'learning_rate': 0.0015004107,
+     'top_1_accuracy': 0.9967448,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.019917127}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-42336.
+ eval | step:  42336 | running 288 steps of evaluation...
+ eval | step:  42336 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.49682203,
+     'top_1_accuracy': 0.49947035,
+     'top_5_accuracy': 0.7529131,
+     'validation_loss': 2.8749638}
+train | step:  42336 | training until step 42624...
+train | step:  42624 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9944661,
+     'learning_rate': 0.0015004107,
+     'top_1_accuracy': 0.9947917,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.023629542}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-42624.
+ eval | step:  42624 | running 288 steps of evaluation...
+ eval | step:  42624 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.49179026,
+     'top_1_accuracy': 0.49364406,
+     'top_5_accuracy': 0.74496824,
+     'validation_loss': 2.9186513}
+train | step:  42624 | training until step 42912...
+train | step:  42912 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99620223,
+     'learning_rate': 0.0015004107,
+     'top_1_accuracy': 0.9963108,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.019857261}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-42912.
+ eval | step:  42912 | running 288 steps of evaluation...
+ eval | step:  42912 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.48649365,
+     'top_1_accuracy': 0.48914194,
+     'top_5_accuracy': 0.7439089,
+     'validation_loss': 2.9593349}
+train | step:  42912 | training until step 43200...
+train | step:  43200 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9966363,
+     'learning_rate': 0.0014403942,
+     'top_1_accuracy': 0.9967448,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.01947236}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-43200.
+ eval | step:  43200 | running 288 steps of evaluation...
+ eval | step:  43200 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.4931144,
+     'top_1_accuracy': 0.4957627,
+     'top_5_accuracy': 0.74629235,
+     'validation_loss': 2.8950734}
+train | step:  43200 | training until step 43488...
+train | step:  43488 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99750435,
+     'learning_rate': 0.0014403942,
+     'top_1_accuracy': 0.99750435,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.017434223}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-43488.
+ eval | step:  43488 | running 288 steps of evaluation...
+ eval | step:  43488 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.48252118,
+     'top_1_accuracy': 0.48411018,
+     'top_5_accuracy': 0.7465572,
+     'validation_loss': 2.8517694}
+train | step:  43488 | training until step 43776...
+train | step:  43776 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99609375,
+     'learning_rate': 0.0014403942,
+     'top_1_accuracy': 0.9963108,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.019883756}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-43776.
+ eval | step:  43776 | running 288 steps of evaluation...
+ eval | step:  43776 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.48834747,
+     'top_1_accuracy': 0.48993644,
+     'top_5_accuracy': 0.7510593,
+     'validation_loss': 2.878223}
+train | step:  43776 | training until step 44064...
+train | step:  44064 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99620223,
+     'learning_rate': 0.0013827785,
+     'top_1_accuracy': 0.9963108,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.019896539}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-44064.
+ eval | step:  44064 | running 288 steps of evaluation...
+ eval | step:  44064 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4992055,
+     'top_1_accuracy': 0.5023835,
+     'top_5_accuracy': 0.7529131,
+     'validation_loss': 2.8701315}
+train | step:  44064 | training until step 44352...
+train | step:  44352 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9967448,
+     'learning_rate': 0.0013827785,
+     'top_1_accuracy': 0.9968533,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.019085461}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-44352.
+ eval | step:  44352 | running 288 steps of evaluation...
+ eval | step:  44352 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.49682203,
+     'top_1_accuracy': 0.49814618,
+     'top_5_accuracy': 0.74523306,
+     'validation_loss': 2.8803306}
+train | step:  44352 | training until step 44640...
+train | step:  44640 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9971788,
+     'learning_rate': 0.0013827785,
+     'top_1_accuracy': 0.9973958,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.018003907}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-44640.
+ eval | step:  44640 | running 288 steps of evaluation...
+ eval | step:  44640 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.49708685,
+     'top_1_accuracy': 0.50052965,
+     'top_5_accuracy': 0.7534428,
+     'validation_loss': 2.8789575}
+train | step:  44640 | training until step 44928...
+train | step:  44928 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99620223,
+     'learning_rate': 0.0013827785,
+     'top_1_accuracy': 0.99641925,
+     'top_5_accuracy': 0.999783,
+     'training_loss': 0.019973353}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-44928.
+ eval | step:  44928 | running 288 steps of evaluation...
+ eval | step:  44928 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.49443856,
+     'top_1_accuracy': 0.49602753,
+     'top_5_accuracy': 0.74205506,
+     'validation_loss': 2.8630412}
+train | step:  44928 | training until step 45216...
+train | step:  45216 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99609375,
+     'learning_rate': 0.0013274673,
+     'top_1_accuracy': 0.99620223,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.019803876}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-45216.
+ eval | step:  45216 | running 288 steps of evaluation...
+ eval | step:  45216 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.5002648,
+     'top_1_accuracy': 0.5023835,
+     'top_5_accuracy': 0.7404661,
+     'validation_loss': 2.8899567}
+train | step:  45216 | training until step 45504...
+train | step:  45504 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9954427,
+     'learning_rate': 0.0013274673,
+     'top_1_accuracy': 0.9955512,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.020850722}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-45504.
+ eval | step:  45504 | running 288 steps of evaluation...
+ eval | step:  45504 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.49443856,
+     'top_1_accuracy': 0.4957627,
+     'top_5_accuracy': 0.7470869,
+     'validation_loss': 2.868776}
+train | step:  45504 | training until step 45792...
+train | step:  45792 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9963108,
+     'learning_rate': 0.0013274673,
+     'top_1_accuracy': 0.9963108,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.016904308}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-45792.
+ eval | step:  45792 | running 288 steps of evaluation...
+ eval | step:  45792 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.50370765,
+     'top_1_accuracy': 0.50635594,
+     'top_5_accuracy': 0.7523835,
+     'validation_loss': 2.850715}
+train | step:  45792 | training until step 46080...
+train | step:  46080 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99782985,
+     'learning_rate': 0.0012743686,
+     'top_1_accuracy': 0.9979384,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.01573501}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-46080.
+ eval | step:  46080 | running 288 steps of evaluation...
+ eval | step:  46080 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.49602753,
+     'top_1_accuracy': 0.49708685,
+     'top_5_accuracy': 0.7507945,
+     'validation_loss': 2.8513968}
+train | step:  46080 | training until step 46368...
+train | step:  46368 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99641925,
+     'learning_rate': 0.0012743686,
+     'top_1_accuracy': 0.9968533,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.019321332}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-46368.
+ eval | step:  46368 | running 288 steps of evaluation...
+ eval | step:  46368 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.4965572,
+     'top_1_accuracy': 0.5002648,
+     'top_5_accuracy': 0.7428496,
+     'validation_loss': 2.8702972}
+train | step:  46368 | training until step 46656...
+train | step:  46656 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99750435,
+     'learning_rate': 0.0012743686,
+     'top_1_accuracy': 0.99750435,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.01630198}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-46656.
+ eval | step:  46656 | running 288 steps of evaluation...
+ eval | step:  46656 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4939089,
+     'top_1_accuracy': 0.4957627,
+     'top_5_accuracy': 0.7486758,
+     'validation_loss': 2.883502}
+train | step:  46656 | training until step 46944...
+train | step:  46944 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99641925,
+     'learning_rate': 0.0012743686,
+     'top_1_accuracy': 0.99641925,
+     'top_5_accuracy': 0.999783,
+     'training_loss': 0.019126017}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-46944.
+ eval | step:  46944 | running 288 steps of evaluation...
+ eval | step:  46944 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.49258474,
+     'top_1_accuracy': 0.49443856,
+     'top_5_accuracy': 0.7539725,
+     'validation_loss': 2.88693}
+train | step:  46944 | training until step 47232...
+train | step:  47232 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9977214,
+     'learning_rate': 0.0012233938,
+     'top_1_accuracy': 0.99782985,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.0146516515}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-47232.
+ eval | step:  47232 | running 288 steps of evaluation...
+ eval | step:  47232 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.49788135,
+     'top_1_accuracy': 0.4992055,
+     'top_5_accuracy': 0.74629235,
+     'validation_loss': 2.8508608}
+train | step:  47232 | training until step 47520...
+train | step:  47520 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99641925,
+     'learning_rate': 0.0012233938,
+     'top_1_accuracy': 0.9965278,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.019338673}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-47520.
+ eval | step:  47520 | running 288 steps of evaluation...
+ eval | step:  47520 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.48808262,
+     'top_1_accuracy': 0.4894068,
+     'top_5_accuracy': 0.74231994,
+     'validation_loss': 2.898861}
+train | step:  47520 | training until step 47808...
+train | step:  47808 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9970703,
+     'learning_rate': 0.0012233938,
+     'top_1_accuracy': 0.9971788,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.015793756}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-47808.
+ eval | step:  47808 | running 288 steps of evaluation...
+ eval | step:  47808 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.49841103,
+     'top_1_accuracy': 0.5,
+     'top_5_accuracy': 0.7555614,
+     'validation_loss': 2.8279033}
+train | step:  47808 | training until step 48096...
+train | step:  48096 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99696183,
+     'learning_rate': 0.0012233938,
+     'top_1_accuracy': 0.9971788,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.017859377}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-48096.
+ eval | step:  48096 | running 288 steps of evaluation...
+ eval | step:  48096 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.4878178,
+     'top_1_accuracy': 0.48887712,
+     'top_5_accuracy': 0.7457627,
+     'validation_loss': 2.9042063}
+train | step:  48096 | training until step 48384...
+train | step:  48384 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9977214,
+     'learning_rate': 0.0011744581,
+     'top_1_accuracy': 0.9977214,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.014716723}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-48384.
+ eval | step:  48384 | running 288 steps of evaluation...
+ eval | step:  48384 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.5,
+     'top_1_accuracy': 0.5018538,
+     'top_5_accuracy': 0.7486758,
+     'validation_loss': 2.8500812}
+train | step:  48384 | training until step 48672...
+train | step:  48672 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9970703,
+     'learning_rate': 0.0011744581,
+     'top_1_accuracy': 0.9973958,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.01626449}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-48672.
+ eval | step:  48672 | running 288 steps of evaluation...
+ eval | step:  48672 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.49867585,
+     'top_1_accuracy': 0.501589,
+     'top_5_accuracy': 0.7558263,
+     'validation_loss': 2.7995367}
+train | step:  48672 | training until step 48960...
+train | step:  48960 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9963108,
+     'learning_rate': 0.0011744581,
+     'top_1_accuracy': 0.9965278,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.018582337}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-48960.
+ eval | step:  48960 | running 288 steps of evaluation...
+ eval | step:  48960 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.48622882,
+     'top_1_accuracy': 0.48834747,
+     'top_5_accuracy': 0.7372881,
+     'validation_loss': 2.945355}
+train | step:  48960 | training until step 49248...
+train | step:  49248 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9967448,
+     'learning_rate': 0.0011274797,
+     'top_1_accuracy': 0.9967448,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.01659585}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-49248.
+ eval | step:  49248 | running 288 steps of evaluation...
+ eval | step:  49248 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.49417374,
+     'top_1_accuracy': 0.49708685,
+     'top_5_accuracy': 0.75,
+     'validation_loss': 2.8754275}
+train | step:  49248 | training until step 49536...
+train | step:  49536 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99696183,
+     'learning_rate': 0.0011274797,
+     'top_1_accuracy': 0.9971788,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.0156242885}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-49536.
+ eval | step:  49536 | running 288 steps of evaluation...
+ eval | step:  49536 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.5002648,
+     'top_1_accuracy': 0.5029131,
+     'top_5_accuracy': 0.748411,
+     'validation_loss': 2.866686}
+train | step:  49536 | training until step 49824...
+train | step:  49824 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9966363,
+     'learning_rate': 0.0011274797,
+     'top_1_accuracy': 0.9966363,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.017085029}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-49824.
+ eval | step:  49824 | running 288 steps of evaluation...
+ eval | step:  49824 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.48675847,
+     'top_1_accuracy': 0.48887712,
+     'top_5_accuracy': 0.7362288,
+     'validation_loss': 2.9403765}
+train | step:  49824 | training until step 50112...
+train | step:  50112 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99750435,
+     'learning_rate': 0.0011274797,
+     'top_1_accuracy': 0.99782985,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.014075612}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-50112.
+ eval | step:  50112 | running 288 steps of evaluation...
+ eval | step:  50112 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.48808262,
+     'top_1_accuracy': 0.49020126,
+     'top_5_accuracy': 0.7441737,
+     'validation_loss': 2.8723032}
+train | step:  50112 | training until step 50400...
+train | step:  50400 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9967448,
+     'learning_rate': 0.0010823804,
+     'top_1_accuracy': 0.9968533,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.01612205}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-50400.
+ eval | step:  50400 | running 288 steps of evaluation...
+ eval | step:  50400 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4904661,
+     'top_1_accuracy': 0.4912606,
+     'top_5_accuracy': 0.74205506,
+     'validation_loss': 2.9062042}
+train | step:  50400 | training until step 50688...
+train | step:  50688 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9979384,
+     'learning_rate': 0.0010823804,
+     'top_1_accuracy': 0.99815536,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.012982743}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-50688.
+ eval | step:  50688 | running 288 steps of evaluation...
+ eval | step:  50688 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.49841103,
+     'top_1_accuracy': 0.5002648,
+     'top_5_accuracy': 0.7502648,
+     'validation_loss': 2.8352833}
+train | step:  50688 | training until step 50976...
+train | step:  50976 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9967448,
+     'learning_rate': 0.0010823804,
+     'top_1_accuracy': 0.9967448,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.016570665}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-50976.
+ eval | step:  50976 | running 288 steps of evaluation...
+ eval | step:  50976 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.49417374,
+     'top_1_accuracy': 0.49708685,
+     'top_5_accuracy': 0.74179024,
+     'validation_loss': 2.9043906}
+train | step:  50976 | training until step 51264...
+train | step:  51264 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9968533,
+     'learning_rate': 0.0010390852,
+     'top_1_accuracy': 0.9968533,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.016732426}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-51264.
+ eval | step:  51264 | running 288 steps of evaluation...
+ eval | step:  51264 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.4931144,
+     'top_1_accuracy': 0.49443856,
+     'top_5_accuracy': 0.7444386,
+     'validation_loss': 2.870904}
+train | step:  51264 | training until step 51552...
+train | step:  51552 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9985894,
+     'learning_rate': 0.0010390852,
+     'top_1_accuracy': 0.9985894,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.012430029}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-51552.
+ eval | step:  51552 | running 288 steps of evaluation...
+ eval | step:  51552 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.5002648,
+     'top_1_accuracy': 0.5023835,
+     'top_5_accuracy': 0.7476165,
+     'validation_loss': 2.8570302}
+train | step:  51552 | training until step 51840...
+train | step:  51840 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99750435,
+     'learning_rate': 0.0010390852,
+     'top_1_accuracy': 0.99761283,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.014520218}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-51840.
+ eval | step:  51840 | running 288 steps of evaluation...
+ eval | step:  51840 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.5013242,
+     'top_1_accuracy': 0.5042373,
+     'top_5_accuracy': 0.75211865,
+     'validation_loss': 2.7985778}
+train | step:  51840 | training until step 52128...
+train | step:  52128 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9970703,
+     'learning_rate': 0.0010390852,
+     'top_1_accuracy': 0.9971788,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.016946947}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-52128.
+ eval | step:  52128 | running 288 steps of evaluation...
+ eval | step:  52128 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.49682203,
+     'top_1_accuracy': 0.49841103,
+     'top_5_accuracy': 0.74496824,
+     'validation_loss': 2.8750849}
+train | step:  52128 | training until step 52416...
+train | step:  52416 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9980469,
+     'learning_rate': 0.0009975218,
+     'top_1_accuracy': 0.99815536,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.013749936}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-52416.
+ eval | step:  52416 | running 288 steps of evaluation...
+ eval | step:  52416 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.5010593,
+     'top_1_accuracy': 0.5034428,
+     'top_5_accuracy': 0.75052965,
+     'validation_loss': 2.852775}
+train | step:  52416 | training until step 52704...
+train | step:  52704 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9965278,
+     'learning_rate': 0.0009975218,
+     'top_1_accuracy': 0.9966363,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.016351542}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-52704.
+ eval | step:  52704 | running 288 steps of evaluation...
+ eval | step:  52704 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4973517,
+     'top_1_accuracy': 0.49973518,
+     'top_5_accuracy': 0.74523306,
+     'validation_loss': 2.8836012}
+train | step:  52704 | training until step 52992...
+train | step:  52992 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9982639,
+     'learning_rate': 0.0009975218,
+     'top_1_accuracy': 0.9984809,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.012445148}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-52992.
+ eval | step:  52992 | running 288 steps of evaluation...
+ eval | step:  52992 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.5026483,
+     'top_1_accuracy': 0.50476694,
+     'top_5_accuracy': 0.75211865,
+     'validation_loss': 2.8215785}
+train | step:  52992 | training until step 53280...
+train | step:  53280 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99728733,
+     'learning_rate': 0.0009576209,
+     'top_1_accuracy': 0.99728733,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.015350623}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-53280.
+ eval | step:  53280 | running 288 steps of evaluation...
+ eval | step:  53280 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.5045021,
+     'top_1_accuracy': 0.5055614,
+     'top_5_accuracy': 0.748411,
+     'validation_loss': 2.8740427}
+train | step:  53280 | training until step 53568...
+train | step:  53568 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9980469,
+     'learning_rate': 0.0009576209,
+     'top_1_accuracy': 0.9980469,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.0124154575}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-53568.
+ eval | step:  53568 | running 288 steps of evaluation...
+ eval | step:  53568 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.4992055,
+     'top_1_accuracy': 0.501589,
+     'top_5_accuracy': 0.7513242,
+     'validation_loss': 2.8465106}
+train | step:  53568 | training until step 53856...
+train | step:  53856 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9973958,
+     'learning_rate': 0.0009576209,
+     'top_1_accuracy': 0.99750435,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.014405968}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-53856.
+ eval | step:  53856 | running 288 steps of evaluation...
+ eval | step:  53856 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.4957627,
+     'top_1_accuracy': 0.49708685,
+     'top_5_accuracy': 0.74947035,
+     'validation_loss': 2.8660917}
+train | step:  53856 | training until step 54144...
+train | step:  54144 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99728733,
+     'learning_rate': 0.0009576209,
+     'top_1_accuracy': 0.9973958,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.014512052}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-54144.
+ eval | step:  54144 | running 288 steps of evaluation...
+ eval | step:  54144 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.4939089,
+     'top_1_accuracy': 0.49682203,
+     'top_5_accuracy': 0.7441737,
+     'validation_loss': 2.8676343}
+train | step:  54144 | training until step 54432...
+train | step:  54432 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99761283,
+     'learning_rate': 0.000919316,
+     'top_1_accuracy': 0.99761283,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.013792854}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-54432.
+ eval | step:  54432 | running 288 steps of evaluation...
+ eval | step:  54432 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.4949682,
+     'top_1_accuracy': 0.49682203,
+     'top_5_accuracy': 0.7441737,
+     'validation_loss': 2.865203}
+train | step:  54432 | training until step 54720...
+train | step:  54720 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99782985,
+     'learning_rate': 0.000919316,
+     'top_1_accuracy': 0.99782985,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.0150846625}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-54720.
+ eval | step:  54720 | running 288 steps of evaluation...
+ eval | step:  54720 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.49602753,
+     'top_1_accuracy': 0.49814618,
+     'top_5_accuracy': 0.74682206,
+     'validation_loss': 2.879803}
+train | step:  54720 | training until step 55008...
+train | step:  55008 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99815536,
+     'learning_rate': 0.000919316,
+     'top_1_accuracy': 0.9983724,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.012503531}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-55008.
+ eval | step:  55008 | running 288 steps of evaluation...
+ eval | step:  55008 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.49443856,
+     'top_1_accuracy': 0.4973517,
+     'top_5_accuracy': 0.7518538,
+     'validation_loss': 2.821798}
+train | step:  55008 | training until step 55296...
+train | step:  55296 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9979384,
+     'learning_rate': 0.0008825434,
+     'top_1_accuracy': 0.99815536,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.012513814}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-55296.
+ eval | step:  55296 | running 288 steps of evaluation...
+ eval | step:  55296 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.4949682,
+     'top_1_accuracy': 0.4965572,
+     'top_5_accuracy': 0.74682206,
+     'validation_loss': 2.8558047}
+train | step:  55296 | training until step 55584...
+train | step:  55584 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9979384,
+     'learning_rate': 0.0008825434,
+     'top_1_accuracy': 0.9979384,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.013607717}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-55584.
+ eval | step:  55584 | running 288 steps of evaluation...
+ eval | step:  55584 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.48967162,
+     'top_1_accuracy': 0.4912606,
+     'top_5_accuracy': 0.74337924,
+     'validation_loss': 2.9168878}
+train | step:  55584 | training until step 55872...
+train | step:  55872 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99815536,
+     'learning_rate': 0.0008825434,
+     'top_1_accuracy': 0.9982639,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.012146385}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-55872.
+ eval | step:  55872 | running 288 steps of evaluation...
+ eval | step:  55872 | eval time:   60.6 sec | output: 
+    {'accuracy': 0.5013242,
+     'top_1_accuracy': 0.5039725,
+     'top_5_accuracy': 0.74788135,
+     'validation_loss': 2.8398075}
+train | step:  55872 | training until step 56160...
+train | step:  56160 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9973958,
+     'learning_rate': 0.0008825434,
+     'top_1_accuracy': 0.99750435,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.012946695}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-56160.
+ eval | step:  56160 | running 288 steps of evaluation...
+ eval | step:  56160 | eval time:   60.6 sec | output: 
+    {'accuracy': 0.49814618,
+     'top_1_accuracy': 0.5002648,
+     'top_5_accuracy': 0.7545021,
+     'validation_loss': 2.824216}
+train | step:  56160 | training until step 56448...
+train | step:  56448 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9982639,
+     'learning_rate': 0.0008472416,
+     'top_1_accuracy': 0.9982639,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.011543511}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-56448.
+ eval | step:  56448 | running 288 steps of evaluation...
+ eval | step:  56448 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.5029131,
+     'top_1_accuracy': 0.5060911,
+     'top_5_accuracy': 0.75768006,
+     'validation_loss': 2.7896056}
+train | step:  56448 | training until step 56736...
+train | step:  56736 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9979384,
+     'learning_rate': 0.0008472416,
+     'top_1_accuracy': 0.9979384,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.012971646}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-56736.
+ eval | step:  56736 | running 288 steps of evaluation...
+ eval | step:  56736 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.49867585,
+     'top_1_accuracy': 0.5010593,
+     'top_5_accuracy': 0.75317794,
+     'validation_loss': 2.8146267}
+train | step:  56736 | training until step 57024...
+train | step:  57024 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99815536,
+     'learning_rate': 0.0008472416,
+     'top_1_accuracy': 0.9982639,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.012306529}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-57024.
+ eval | step:  57024 | running 288 steps of evaluation...
+ eval | step:  57024 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.50503176,
+     'top_1_accuracy': 0.50741524,
+     'top_5_accuracy': 0.75,
+     'validation_loss': 2.8570688}
+train | step:  57024 | training until step 57312...
+train | step:  57312 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99696183,
+     'learning_rate': 0.0008472416,
+     'top_1_accuracy': 0.9971788,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.01351234}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-57312.
+ eval | step:  57312 | running 288 steps of evaluation...
+ eval | step:  57312 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.50317794,
+     'top_1_accuracy': 0.5058263,
+     'top_5_accuracy': 0.7534428,
+     'validation_loss': 2.81517}
+train | step:  57312 | training until step 57600...
+train | step:  57600 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9985894,
+     'learning_rate': 0.00081335194,
+     'top_1_accuracy': 0.9985894,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.01124298}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-57600.
+ eval | step:  57600 | running 288 steps of evaluation...
+ eval | step:  57600 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.5042373,
+     'top_1_accuracy': 0.50662076,
+     'top_5_accuracy': 0.7518538,
+     'validation_loss': 2.8292925}
+train | step:  57600 | training until step 57888...
+train | step:  57888 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9982639,
+     'learning_rate': 0.00081335194,
+     'top_1_accuracy': 0.9982639,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.011516154}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-57888.
+ eval | step:  57888 | running 288 steps of evaluation...
+ eval | step:  57888 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.49867585,
+     'top_1_accuracy': 0.5013242,
+     'top_5_accuracy': 0.7539725,
+     'validation_loss': 2.8421426}
+train | step:  57888 | training until step 58176...
+train | step:  58176 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9980469,
+     'learning_rate': 0.00081335194,
+     'top_1_accuracy': 0.9980469,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.012980954}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-58176.
+ eval | step:  58176 | running 288 steps of evaluation...
+ eval | step:  58176 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.50820976,
+     'top_1_accuracy': 0.5111229,
+     'top_5_accuracy': 0.7545021,
+     'validation_loss': 2.8134573}
+train | step:  58176 | training until step 58464...
+train | step:  58464 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9966363,
+     'learning_rate': 0.0007808178,
+     'top_1_accuracy': 0.9967448,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.013948616}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-58464.
+ eval | step:  58464 | running 288 steps of evaluation...
+ eval | step:  58464 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.5058263,
+     'top_1_accuracy': 0.50820976,
+     'top_5_accuracy': 0.7510593,
+     'validation_loss': 2.855584}
+train | step:  58464 | training until step 58752...
+train | step:  58752 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9980469,
+     'learning_rate': 0.0007808178,
+     'top_1_accuracy': 0.9980469,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.011070258}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-58752.
+ eval | step:  58752 | running 288 steps of evaluation...
+ eval | step:  58752 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.5071504,
+     'top_1_accuracy': 0.50900424,
+     'top_5_accuracy': 0.7513242,
+     'validation_loss': 2.843781}
+train | step:  58752 | training until step 59040...
+train | step:  59040 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99782985,
+     'learning_rate': 0.0007808178,
+     'top_1_accuracy': 0.99782985,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.012045909}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-59040.
+ eval | step:  59040 | running 288 steps of evaluation...
+ eval | step:  59040 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.5060911,
+     'top_1_accuracy': 0.5087394,
+     'top_5_accuracy': 0.7510593,
+     'validation_loss': 2.8273904}
+train | step:  59040 | training until step 59328...
+train | step:  59328 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9979384,
+     'learning_rate': 0.0007808178,
+     'top_1_accuracy': 0.9979384,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.01380598}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-59328.
+ eval | step:  59328 | running 288 steps of evaluation...
+ eval | step:  59328 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.49761653,
+     'top_1_accuracy': 0.5,
+     'top_5_accuracy': 0.751589,
+     'validation_loss': 2.8274698}
+train | step:  59328 | training until step 59616...
+train | step:  59616 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9980469,
+     'learning_rate': 0.00074958504,
+     'top_1_accuracy': 0.99815536,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.012228761}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-59616.
+ eval | step:  59616 | running 288 steps of evaluation...
+ eval | step:  59616 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.5,
+     'top_1_accuracy': 0.5023835,
+     'top_5_accuracy': 0.7545021,
+     'validation_loss': 2.8261852}
+train | step:  59616 | training until step 59904...
+train | step:  59904 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99761283,
+     'learning_rate': 0.00074958504,
+     'top_1_accuracy': 0.99782985,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.013819899}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-59904.
+ eval | step:  59904 | running 288 steps of evaluation...
+ eval | step:  59904 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.4992055,
+     'top_1_accuracy': 0.501589,
+     'top_5_accuracy': 0.7497352,
+     'validation_loss': 2.8570302}
+train | step:  59904 | training until step 60192...
+train | step:  60192 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9973958,
+     'learning_rate': 0.00074958504,
+     'top_1_accuracy': 0.99750435,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.011929537}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-60192.
+ eval | step:  60192 | running 288 steps of evaluation...
+ eval | step:  60192 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.49788135,
+     'top_1_accuracy': 0.4992055,
+     'top_5_accuracy': 0.74947035,
+     'validation_loss': 2.842655}
+train | step:  60192 | training until step 60480...
+train | step:  60480 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9977214,
+     'learning_rate': 0.00071960164,
+     'top_1_accuracy': 0.9977214,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.012774997}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-60480.
+ eval | step:  60480 | running 288 steps of evaluation...
+ eval | step:  60480 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.5013242,
+     'top_1_accuracy': 0.5029131,
+     'top_5_accuracy': 0.7507945,
+     'validation_loss': 2.8396132}
+train | step:  60480 | training until step 60768...
+train | step:  60768 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99750435,
+     'learning_rate': 0.00071960164,
+     'top_1_accuracy': 0.99750435,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.012382302}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-60768.
+ eval | step:  60768 | running 288 steps of evaluation...
+ eval | step:  60768 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.5,
+     'top_1_accuracy': 0.5018538,
+     'top_5_accuracy': 0.75052965,
+     'validation_loss': 2.8846865}
+train | step:  60768 | training until step 61056...
+train | step:  61056 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99750435,
+     'learning_rate': 0.00071960164,
+     'top_1_accuracy': 0.99750435,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.013812653}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-61056.
+ eval | step:  61056 | running 288 steps of evaluation...
+ eval | step:  61056 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.49470338,
+     'top_1_accuracy': 0.49602753,
+     'top_5_accuracy': 0.7518538,
+     'validation_loss': 2.8547354}
+train | step:  61056 | training until step 61344...
+train | step:  61344 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9973958,
+     'learning_rate': 0.00071960164,
+     'top_1_accuracy': 0.99761283,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.012955628}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-61344.
+ eval | step:  61344 | running 288 steps of evaluation...
+ eval | step:  61344 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.5010593,
+     'top_1_accuracy': 0.5018538,
+     'top_5_accuracy': 0.75370765,
+     'validation_loss': 2.8557057}
+train | step:  61344 | training until step 61632...
+train | step:  61632 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9980469,
+     'learning_rate': 0.0006908176,
+     'top_1_accuracy': 0.9982639,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.011623995}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-61632.
+ eval | step:  61632 | running 288 steps of evaluation...
+ eval | step:  61632 | eval time:   62.0 sec | output: 
+    {'accuracy': 0.5023835,
+     'top_1_accuracy': 0.50503176,
+     'top_5_accuracy': 0.76191735,
+     'validation_loss': 2.8328722}
+train | step:  61632 | training until step 61920...
+train | step:  61920 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9979384,
+     'learning_rate': 0.0006908176,
+     'top_1_accuracy': 0.9979384,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.011937401}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-61920.
+ eval | step:  61920 | running 288 steps of evaluation...
+ eval | step:  61920 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.50476694,
+     'top_1_accuracy': 0.5071504,
+     'top_5_accuracy': 0.75794494,
+     'validation_loss': 2.840221}
+train | step:  61920 | training until step 62208...
+train | step:  62208 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9985894,
+     'learning_rate': 0.0006908176,
+     'top_1_accuracy': 0.99869794,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.010383873}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-62208.
+ eval | step:  62208 | running 288 steps of evaluation...
+ eval | step:  62208 | eval time:   60.6 sec | output: 
+    {'accuracy': 0.49788135,
+     'top_1_accuracy': 0.49973518,
+     'top_5_accuracy': 0.7558263,
+     'validation_loss': 2.8464847}
+train | step:  62208 | training until step 62496...
+train | step:  62496 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99891496,
+     'learning_rate': 0.0006631849,
+     'top_1_accuracy': 0.99902344,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.0095092}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-62496.
+ eval | step:  62496 | running 288 steps of evaluation...
+ eval | step:  62496 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.5045021,
+     'top_1_accuracy': 0.5055614,
+     'top_5_accuracy': 0.7539725,
+     'validation_loss': 2.837418}
+train | step:  62496 | training until step 62784...
+train | step:  62784 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9977214,
+     'learning_rate': 0.0006631849,
+     'top_1_accuracy': 0.99782985,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.0116189085}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-62784.
+ eval | step:  62784 | running 288 steps of evaluation...
+ eval | step:  62784 | eval time:   60.6 sec | output: 
+    {'accuracy': 0.5007945,
+     'top_1_accuracy': 0.50370765,
+     'top_5_accuracy': 0.75476694,
+     'validation_loss': 2.8616927}
+train | step:  62784 | training until step 63072...
+train | step:  63072 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99782985,
+     'learning_rate': 0.0006631849,
+     'top_1_accuracy': 0.9979384,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.012837616}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-63072.
+ eval | step:  63072 | running 288 steps of evaluation...
+ eval | step:  63072 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.4973517,
+     'top_1_accuracy': 0.50052965,
+     'top_5_accuracy': 0.7507945,
+     'validation_loss': 2.8587618}
+train | step:  63072 | training until step 63360...
+train | step:  63360 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99902344,
+     'learning_rate': 0.0006631849,
+     'top_1_accuracy': 0.9991319,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.009270891}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-63360.
+ eval | step:  63360 | running 288 steps of evaluation...
+ eval | step:  63360 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.49788135,
+     'top_1_accuracy': 0.49973518,
+     'top_5_accuracy': 0.7518538,
+     'validation_loss': 2.8553138}
+train | step:  63360 | training until step 63648...
+train | step:  63648 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9982639,
+     'learning_rate': 0.0006366575,
+     'top_1_accuracy': 0.9983724,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.010970101}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-63648.
+ eval | step:  63648 | running 288 steps of evaluation...
+ eval | step:  63648 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.5034428,
+     'top_1_accuracy': 0.5052966,
+     'top_5_accuracy': 0.75370765,
+     'validation_loss': 2.8455493}
+train | step:  63648 | training until step 63936...
+train | step:  63936 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99815536,
+     'learning_rate': 0.0006366575,
+     'top_1_accuracy': 0.99815536,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.011590127}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-63936.
+ eval | step:  63936 | running 288 steps of evaluation...
+ eval | step:  63936 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.5002648,
+     'top_1_accuracy': 0.50476694,
+     'top_5_accuracy': 0.7552966,
+     'validation_loss': 2.8211954}
+train | step:  63936 | training until step 64224...
+train | step:  64224 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9984809,
+     'learning_rate': 0.0006366575,
+     'top_1_accuracy': 0.9984809,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.01001602}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-64224.
+ eval | step:  64224 | running 288 steps of evaluation...
+ eval | step:  64224 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.49814618,
+     'top_1_accuracy': 0.49947035,
+     'top_5_accuracy': 0.7534428,
+     'validation_loss': 2.8557932}
+train | step:  64224 | training until step 64512...
+train | step:  64512 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9985894,
+     'learning_rate': 0.0006111912,
+     'top_1_accuracy': 0.9985894,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.0102057895}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-64512.
+ eval | step:  64512 | running 288 steps of evaluation...
+ eval | step:  64512 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.5002648,
+     'top_1_accuracy': 0.5023835,
+     'top_5_accuracy': 0.7552966,
+     'validation_loss': 2.858338}
+train | step:  64512 | training until step 64800...
+train | step:  64800 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9983724,
+     'learning_rate': 0.0006111912,
+     'top_1_accuracy': 0.9984809,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.01020285}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-64800.
+ eval | step:  64800 | running 288 steps of evaluation...
+ eval | step:  64800 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.50317794,
+     'top_1_accuracy': 0.5055614,
+     'top_5_accuracy': 0.75662076,
+     'validation_loss': 2.828421}
+train | step:  64800 | training until step 65088...
+train | step:  65088 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9983724,
+     'learning_rate': 0.0006111912,
+     'top_1_accuracy': 0.9983724,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.01070526}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-65088.
+ eval | step:  65088 | running 288 steps of evaluation...
+ eval | step:  65088 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.50052965,
+     'top_1_accuracy': 0.50317794,
+     'top_5_accuracy': 0.75211865,
+     'validation_loss': 2.8492148}
+train | step:  65088 | training until step 65376...
+train | step:  65376 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99815536,
+     'learning_rate': 0.0006111912,
+     'top_1_accuracy': 0.9982639,
+     'top_5_accuracy': 0.9998915,
+     'training_loss': 0.010047216}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-65376.
+ eval | step:  65376 | running 288 steps of evaluation...
+ eval | step:  65376 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.5026483,
+     'top_1_accuracy': 0.5042373,
+     'top_5_accuracy': 0.74947035,
+     'validation_loss': 2.8429716}
+train | step:  65376 | training until step 65664...
+train | step:  65664 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9984809,
+     'learning_rate': 0.0005867435,
+     'top_1_accuracy': 0.9985894,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.011435035}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-65664.
+ eval | step:  65664 | running 288 steps of evaluation...
+ eval | step:  65664 | eval time:   60.8 sec | output: 
+    {'accuracy': 0.4957627,
+     'top_1_accuracy': 0.49841103,
+     'top_5_accuracy': 0.7473517,
+     'validation_loss': 2.8956566}
+train | step:  65664 | training until step 65952...
+train | step:  65952 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9988064,
+     'learning_rate': 0.0005867435,
+     'top_1_accuracy': 0.99891496,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.010090953}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-65952.
+ eval | step:  65952 | running 288 steps of evaluation...
+ eval | step:  65952 | eval time:   61.3 sec | output: 
+    {'accuracy': 0.5023835,
+     'top_1_accuracy': 0.50476694,
+     'top_5_accuracy': 0.7529131,
+     'validation_loss': 2.8257873}
+train | step:  65952 | training until step 66240...
+train | step:  66240 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9985894,
+     'learning_rate': 0.0005867435,
+     'top_1_accuracy': 0.9985894,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.0097401105}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-66240.
+ eval | step:  66240 | running 288 steps of evaluation...
+ eval | step:  66240 | eval time:   60.7 sec | output: 
+    {'accuracy': 0.5010593,
+     'top_1_accuracy': 0.5023835,
+     'top_5_accuracy': 0.748411,
+     'validation_loss': 2.860102}
+train | step:  66240 | training until step 66528...
+train | step:  66528 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99761283,
+     'learning_rate': 0.0005867435,
+     'top_1_accuracy': 0.9977214,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.01203857}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-66528.
+ eval | step:  66528 | running 288 steps of evaluation...
+ eval | step:  66528 | eval time:   61.0 sec | output: 
+    {'accuracy': 0.5007945,
+     'top_1_accuracy': 0.50317794,
+     'top_5_accuracy': 0.7513242,
+     'validation_loss': 2.8388376}
+train | step:  66528 | training until step 66816...
+train | step:  66816 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9982639,
+     'learning_rate': 0.00056327373,
+     'top_1_accuracy': 0.9982639,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.010264687}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-66816.
+ eval | step:  66816 | running 288 steps of evaluation...
+ eval | step:  66816 | eval time:   60.9 sec | output: 
+    {'accuracy': 0.50211865,
+     'top_1_accuracy': 0.50317794,
+     'top_5_accuracy': 0.7481462,
+     'validation_loss': 2.868556}
+train | step:  66816 | training until step 67104...
+train | step:  67104 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.99815536,
+     'learning_rate': 0.00056327373,
+     'top_1_accuracy': 0.99815536,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.0116695585}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-67104.
+ eval | step:  67104 | running 288 steps of evaluation...
+ eval | step:  67104 | eval time:   61.1 sec | output: 
+    {'accuracy': 0.5071504,
+     'top_1_accuracy': 0.50794494,
+     'top_5_accuracy': 0.7552966,
+     'validation_loss': 2.8350792}
+train | step:  67104 | training until step 67392...
+train | step:  67392 | steps/sec:    0.8 | output: 
+    {'accuracy': 0.9985894,
+     'learning_rate': 0.00056327373,
+     'top_1_accuracy': 0.99869794,
+     'top_5_accuracy': 1.0,
+     'training_loss': 0.0098073445}
+saved checkpoint to gs://yonsei-tf2-models/asn/Assemblenet101_20210825_075255/ckpt-67392.
+ eval | step:  67392 | running 288 steps of evaluation...
+ eval | step:  67392 | eval time:   61.6 sec | output: 
+    {'accuracy': 0.49947035,
+     'top_1_accuracy': 0.5010593,
+     'top_5_accuracy': 0.7526483,
+     'validation_loss': 2.8575966}
+train | step:  67392 | training until step 67680...

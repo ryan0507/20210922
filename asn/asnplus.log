@@ -1,0 +1,582 @@
+2021-09-21 12:15:48.676079: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory
+2021-09-21 12:15:48.676154: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+I0921 12:15:51.454524 140176204107968 train_utils.py:297] Final experiment parameters:
+{'runtime': {'all_reduce_alg': None,
+             'batchnorm_spatial_persistent': False,
+             'dataset_num_private_threads': None,
+             'default_shard_dim': -1,
+             'distribution_strategy': 'tpu',
+             'enable_xla': False,
+             'gpu_thread_mode': None,
+             'loss_scale': None,
+             'mixed_precision_dtype': 'bfloat16',
+             'num_cores_per_replica': 1,
+             'num_gpus': 0,
+             'num_packs': 1,
+             'per_gpu_thread_count': 0,
+             'run_eagerly': False,
+             'task_index': -1,
+             'tpu': 'node-3',
+             'tpu_enable_xla_dynamic_padder': None,
+             'worker_hosts': None},
+ 'task': {'init_checkpoint': None,
+          'init_checkpoint_modules': 'all',
+          'losses': {'l2_weight_decay': 0.0001,
+                     'label_smoothing': 0.0,
+                     'one_hot': True},
+          'metrics': {'use_per_class_recall': False},
+          'model': {'aggregate_endpoints': False,
+                    'backbone': {'assemblenet_plus': {'attention_mode': 'peer',
+                                                      'blocks': ({'input_block_weight': (),
+                                                                  'input_blocks': (),
+                                                                  'level': -1,
+                                                                  'num_filters': -1,
+                                                                  'spatial_stride': 1,
+                                                                  'temporal_dilation': 4},
+                                                                 {'input_block_weight': (),
+                                                                  'input_blocks': (),
+                                                                  'level': -1,
+                                                                  'num_filters': -1,
+                                                                  'spatial_stride': 1,
+                                                                  'temporal_dilation': 4},
+                                                                 {'input_block_weight': (),
+                                                                  'input_blocks': (),
+                                                                  'level': -2,
+                                                                  'num_filters': -1,
+                                                                  'spatial_stride': 1,
+                                                                  'temporal_dilation': 1},
+                                                                 {'input_block_weight': (),
+                                                                  'input_blocks': (),
+                                                                  'level': -2,
+                                                                  'num_filters': -1,
+                                                                  'spatial_stride': 1,
+                                                                  'temporal_dilation': 1},
+                                                                 {'input_block_weight': (),
+                                                                  'input_blocks': [1],
+                                                                  'level': 0,
+                                                                  'num_filters': 32,
+                                                                  'spatial_stride': 1,
+                                                                  'temporal_dilation': 1},
+                                                                 {'input_block_weight': (),
+                                                                  'input_blocks': [0],
+                                                                  'level': 0,
+                                                                  'num_filters': 32,
+                                                                  'spatial_stride': 1,
+                                                                  'temporal_dilation': 4},
+                                                                 {'input_block_weight': (0.13810564577579498,
+                                                                                         0.8465337157249451,
+                                                                                         0.3072969317436218,
+                                                                                         0.2867436408996582),
+                                                                  'input_blocks': [0,
+                                                                                   1,
+                                                                                   2,
+                                                                                   3],
+                                                                  'level': 0,
+                                                                  'num_filters': 32,
+                                                                  'spatial_stride': 1,
+                                                                  'temporal_dilation': 1},
+                                                                 {'input_block_weight': (0.5846117734909058,
+                                                                                         0.6066334843635559),
+                                                                  'input_blocks': [2,
+                                                                                   3],
+                                                                  'level': 0,
+                                                                  'num_filters': 32,
+                                                                  'spatial_stride': 1,
+                                                                  'temporal_dilation': 2},
+                                                                 {'input_block_weight': (0.16382087767124176,
+                                                                                         0.8852924704551697,
+                                                                                         0.4039595425128937,
+                                                                                         0.6823437809944153,
+                                                                                         0.5331538319587708),
+                                                                  'input_blocks': [0,
+                                                                                   4,
+                                                                                   5,
+                                                                                   6,
+                                                                                   7],
+                                                                  'level': 1,
+                                                                  'num_filters': 64,
+                                                                  'spatial_stride': 2,
+                                                                  'temporal_dilation': 2},
+                                                                 {'input_block_weight': (0.028569204732775688,
+                                                                                         0.10333596915006638,
+                                                                                         0.7517264485359192,
+                                                                                         0.9260114431381226),
+                                                                  'input_blocks': [0,
+                                                                                   2,
+                                                                                   4,
+                                                                                   7],
+                                                                  'level': 1,
+                                                                  'num_filters': 64,
+                                                                  'spatial_stride': 2,
+                                                                  'temporal_dilation': 1},
+                                                                 {'input_block_weight': (0.28832191228866577,
+                                                                                         0.7627848982810974,
+                                                                                         0.404977947473526),
+                                                                  'input_blocks': [0,
+                                                                                   5,
+                                                                                   7],
+                                                                  'level': 1,
+                                                                  'num_filters': 64,
+                                                                  'spatial_stride': 2,
+                                                                  'temporal_dilation': 4},
+                                                                 {'input_block_weight': (0.23474831879138947,
+                                                                                         0.7841425538063049),
+                                                                  'input_blocks': [0,
+                                                                                   5],
+                                                                  'level': 1,
+                                                                  'num_filters': 64,
+                                                                  'spatial_stride': 2,
+                                                                  'temporal_dilation': 1},
+                                                                 {'input_block_weight': (0.27616503834724426,
+                                                                                         0.9514784812927246,
+                                                                                         0.6568767428398132,
+                                                                                         0.9547983407974243),
+                                                                  'input_blocks': [4,
+                                                                                   8,
+                                                                                   10,
+                                                                                   11],
+                                                                  'level': 2,
+                                                                  'num_filters': 256,
+                                                                  'spatial_stride': 2,
+                                                                  'temporal_dilation': 1},
+                                                                 {'input_block_weight': (0.5047007203102112,
+                                                                                         0.8876819610595703),
+                                                                  'input_blocks': [8,
+                                                                                   9],
+                                                                  'level': 2,
+                                                                  'num_filters': 256,
+                                                                  'spatial_stride': 2,
+                                                                  'temporal_dilation': 4},
+                                                                 {'input_block_weight': (0.9892204403877258,
+                                                                                         0.8454614877700806),
+                                                                  'input_blocks': [12,
+                                                                                   13],
+                                                                  'level': 3,
+                                                                  'num_filters': 512,
+                                                                  'spatial_stride': 2,
+                                                                  'temporal_dilation': 2}),
+                                                      'model_id': 50,
+                                                      'num_frames': 32,
+                                                      'use_object_input': False},
+                                 'type': 'assemblenet_plus'},
+                    'dropout_rate': 0.2,
+                    'max_pool_predictions': False,
+                    'model_type': 'assemblenet_plus',
+                    'norm_activation': {'activation': 'relu',
+                                        'norm_epsilon': 1e-05,
+                                        'norm_momentum': 0.99,
+                                        'use_sync_bn': True},
+                    'num_classes': 101,
+                    'type': 'assemblenet_plus',
+                    'use_object_input': False},
+          'name': None,
+          'train_data': {'audio_feature': '',
+                         'audio_feature_shape': (-1,),
+                         'aug_max_area_ratio': 1.0,
+                         'aug_max_aspect_ratio': 2.0,
+                         'aug_min_area_ratio': 0.49,
+                         'aug_min_aspect_ratio': 0.5,
+                         'aug_type': None,
+                         'block_length': 1,
+                         'cache': False,
+                         'compressed_input': False,
+                         'cycle_length': 10,
+                         'data_format': 'channels_last',
+                         'deterministic': None,
+                         'drop_remainder': True,
+                         'dtype': 'bfloat16',
+                         'enable_tf_data_service': False,
+                         'feature_shape': (32, 224, 224, 3),
+                         'file_type': 'tfrecord',
+                         'global_batch_size': 64,
+                         'image_field_key': 'image/encoded',
+                         'input_path': '',
+                         'is_multilabel': False,
+                         'is_training': True,
+                         'label_field_key': 'clip/label/index',
+                         'min_image_size': 256,
+                         'name': 'ucf101',
+                         'num_classes': 101,
+                         'num_examples': 9537,
+                         'num_test_clips': 1,
+                         'num_test_crops': 1,
+                         'one_hot': True,
+                         'output_audio': False,
+                         'random_stride_range': 0,
+                         'seed': None,
+                         'sharding': True,
+                         'shuffle_buffer_size': 64,
+                         'split': 'train',
+                         'temporal_stride': 2,
+                         'tf_data_service_address': None,
+                         'tf_data_service_job_name': None,
+                         'tfds_as_supervised': False,
+                         'tfds_data_dir': 'gs://oss-yonsei/tensorflow_datasets/',
+                         'tfds_name': 'ucf101',
+                         'tfds_skip_decoding_feature': '',
+                         'tfds_split': 'train',
+                         'variant_name': None},
+          'validation_data': {'audio_feature': '',
+                              'audio_feature_shape': (-1,),
+                              'aug_max_area_ratio': 1.0,
+                              'aug_max_aspect_ratio': 2.0,
+                              'aug_min_area_ratio': 0.49,
+                              'aug_min_aspect_ratio': 0.5,
+                              'aug_type': None,
+                              'block_length': 1,
+                              'cache': False,
+                              'compressed_input': False,
+                              'cycle_length': 10,
+                              'data_format': 'channels_last',
+                              'deterministic': None,
+                              'drop_remainder': True,
+                              'dtype': 'bfloat16',
+                              'enable_tf_data_service': False,
+                              'feature_shape': (32, 224, 224, 3),
+                              'file_type': 'tfrecord',
+                              'global_batch_size': 64,
+                              'image_field_key': 'image/encoded',
+                              'input_path': '',
+                              'is_multilabel': False,
+                              'is_training': False,
+                              'label_field_key': 'clip/label/index',
+                              'min_image_size': 256,
+                              'name': 'ucf101',
+                              'num_classes': 101,
+                              'num_examples': 3783,
+                              'num_test_clips': 1,
+                              'num_test_crops': 1,
+                              'one_hot': True,
+                              'output_audio': False,
+                              'random_stride_range': 0,
+                              'seed': None,
+                              'sharding': True,
+                              'shuffle_buffer_size': 64,
+                              'split': 'test',
+                              'temporal_stride': 2,
+                              'tf_data_service_address': None,
+                              'tf_data_service_job_name': None,
+                              'tfds_as_supervised': False,
+                              'tfds_data_dir': 'gs://oss-yonsei/tensorflow_datasets/',
+                              'tfds_name': 'ucf101',
+                              'tfds_skip_decoding_feature': '',
+                              'tfds_split': 'test',
+                              'variant_name': None}},
+ 'trainer': {'allow_tpu_summary': False,
+             'best_checkpoint_eval_metric': '',
+             'best_checkpoint_export_subdir': '',
+             'best_checkpoint_metric_comp': 'higher',
+             'checkpoint_interval': 144,
+             'continuous_eval_timeout': 3600,
+             'eval_tf_function': True,
+             'eval_tf_while_loop': False,
+             'loss_upper_bound': 1000000.0,
+             'max_to_keep': 5,
+             'optimizer_config': {'ema': None,
+                                  'learning_rate': {'exponential': {'decay_rate': 0.96,
+                                                                    'decay_steps': 216,
+                                                                    'initial_learning_rate': 0.008,
+                                                                    'name': 'ExponentialDecay',
+                                                                    'offset': 0,
+                                                                    'staircase': True},
+                                                    'type': 'exponential'},
+                                  'optimizer': {'sgd': {'clipnorm': None,
+                                                        'clipvalue': None,
+                                                        'decay': 0.0,
+                                                        'global_clipnorm': None,
+                                                        'momentum': 0.9,
+                                                        'name': 'SGD',
+                                                        'nesterov': True},
+                                                'type': 'sgd'},
+                                  'warmup': {'linear': {'name': 'linear',
+                                                        'warmup_learning_rate': 0,
+                                                        'warmup_steps': 50},
+                                             'type': 'linear'}},
+             'recovery_begin_steps': 0,
+             'recovery_max_trials': 0,
+             'steps_per_loop': 144,
+             'summary_interval': 144,
+             'train_steps': 900000,
+             'train_tf_function': True,
+             'train_tf_while_loop': True,
+             'validation_interval': 144,
+             'validation_steps': 144,
+             'validation_summary_subdir': 'validation'}}
+I0921 12:15:51.455181 140176204107968 train_utils.py:309] Saving experiment configuration to gs://oss-yonsei/asntmp/AssemblenetPlus_20210921_121548/params.yaml
+I0921 12:15:51.874500 140176204107968 train.py:68] mode 'train_and_eval' num_frames 32 feature shape (32, 224, 224, 3)
+I0921 12:15:51.887159 140176204107968 transport.py:157] Attempting refresh to obtain initial access_token
+I0921 12:15:51.990089 140176204107968 transport.py:157] Attempting refresh to obtain initial access_token
+2021-09-21 12:15:52.033762: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-09-21 12:15:52.033819: W tensorflow/stream_executor/cuda/cuda_driver.cc:326] failed call to cuInit: UNKNOWN ERROR (303)
+2021-09-21 12:15:52.033851: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (yonsei01): /proc/driver/nvidia/version does not exist
+I0921 12:15:52.038812 140176204107968 transport.py:157] Attempting refresh to obtain initial access_token
+I0921 12:15:52.096504 140176204107968 transport.py:157] Attempting refresh to obtain initial access_token
+2021-09-21 12:15:52.143159: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-09-21 12:15:52.150816: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:301] Initialize GrpcChannelCache for job worker -> {0 -> 10.86.182.202:8470}
+2021-09-21 12:15:52.150885: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:301] Initialize GrpcChannelCache for job localhost -> {0 -> localhost:33892}
+2021-09-21 12:15:52.167186: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:301] Initialize GrpcChannelCache for job worker -> {0 -> 10.86.182.202:8470}
+2021-09-21 12:15:52.167273: I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:301] Initialize GrpcChannelCache for job localhost -> {0 -> localhost:33892}
+2021-09-21 12:15:52.167953: I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:411] Started server with target: grpc://localhost:33892
+I0921 12:15:52.168995 140176204107968 remote.py:218] Entering into master device scope: /job:worker/replica:0/task:0/device:CPU:0
+INFO:tensorflow:Initializing the TPU system: node-3
+I0921 12:15:52.169533 140176204107968 tpu_strategy_util.py:74] Initializing the TPU system: node-3
+INFO:tensorflow:Clearing out eager caches
+I0921 12:15:57.737239 140176204107968 tpu_strategy_util.py:109] Clearing out eager caches
+INFO:tensorflow:Finished initializing TPU system.
+I0921 12:15:57.740061 140176204107968 tpu_strategy_util.py:135] Finished initializing TPU system.
+I0921 12:15:57.744305 140176204107968 transport.py:157] Attempting refresh to obtain initial access_token
+I0921 12:15:57.787688 140176204107968 transport.py:157] Attempting refresh to obtain initial access_token
+INFO:tensorflow:Found TPU system:
+I0921 12:15:57.829728 140176204107968 tpu_system_metadata.py:159] Found TPU system:
+INFO:tensorflow:*** Num TPU Cores: 8
+I0921 12:15:57.829973 140176204107968 tpu_system_metadata.py:160] *** Num TPU Cores: 8
+INFO:tensorflow:*** Num TPU Workers: 1
+I0921 12:15:57.830267 140176204107968 tpu_system_metadata.py:161] *** Num TPU Workers: 1
+INFO:tensorflow:*** Num TPU Cores Per Worker: 8
+I0921 12:15:57.830317 140176204107968 tpu_system_metadata.py:162] *** Num TPU Cores Per Worker: 8
+INFO:tensorflow:*** Available Device: _DeviceAttributes(/job:localhost/replica:0/task:0/device:CPU:0, CPU, 0, 0)
+I0921 12:15:57.830364 140176204107968 tpu_system_metadata.py:165] *** Available Device: _DeviceAttributes(/job:localhost/replica:0/task:0/device:CPU:0, CPU, 0, 0)
+INFO:tensorflow:*** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:CPU:0, CPU, 0, 0)
+I0921 12:15:57.830482 140176204107968 tpu_system_metadata.py:165] *** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:CPU:0, CPU, 0, 0)
+INFO:tensorflow:*** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:0, TPU, 0, 0)
+I0921 12:15:57.830529 140176204107968 tpu_system_metadata.py:165] *** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:0, TPU, 0, 0)
+INFO:tensorflow:*** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:1, TPU, 0, 0)
+I0921 12:15:57.830574 140176204107968 tpu_system_metadata.py:165] *** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:1, TPU, 0, 0)
+INFO:tensorflow:*** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:2, TPU, 0, 0)
+I0921 12:15:57.830617 140176204107968 tpu_system_metadata.py:165] *** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:2, TPU, 0, 0)
+INFO:tensorflow:*** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:3, TPU, 0, 0)
+I0921 12:15:57.830661 140176204107968 tpu_system_metadata.py:165] *** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:3, TPU, 0, 0)
+INFO:tensorflow:*** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:4, TPU, 0, 0)
+I0921 12:15:57.830704 140176204107968 tpu_system_metadata.py:165] *** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:4, TPU, 0, 0)
+INFO:tensorflow:*** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:5, TPU, 0, 0)
+I0921 12:15:57.830791 140176204107968 tpu_system_metadata.py:165] *** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:5, TPU, 0, 0)
+INFO:tensorflow:*** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:6, TPU, 0, 0)
+I0921 12:15:57.830838 140176204107968 tpu_system_metadata.py:165] *** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:6, TPU, 0, 0)
+INFO:tensorflow:*** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:7, TPU, 0, 0)
+I0921 12:15:57.830882 140176204107968 tpu_system_metadata.py:165] *** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU:7, TPU, 0, 0)
+INFO:tensorflow:*** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU_SYSTEM:0, TPU_SYSTEM, 0, 0)
+I0921 12:15:57.830929 140176204107968 tpu_system_metadata.py:165] *** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:TPU_SYSTEM:0, TPU_SYSTEM, 0, 0)
+INFO:tensorflow:*** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:XLA_CPU:0, XLA_CPU, 0, 0)
+I0921 12:15:57.830973 140176204107968 tpu_system_metadata.py:165] *** Available Device: _DeviceAttributes(/job:worker/replica:0/task:0/device:XLA_CPU:0, XLA_CPU, 0, 0)
+I0921 12:15:57.832105 140176204107968 train_utils.py:220] Running default trainer.
+I0921 12:15:57.832288 140176204107968 video_classification.py:60] Build model input [32, 224, 224, 3]
+I0921 12:15:57.834488 140176204107968 assemblenet_plus.py:442] model_structure=[[-1, 4], [-1, 4], [-2, 1], [-2, 1], [0, [1], 32, 1, 1, 0], [0, [0], 32, 4, 1, 0], [0, [0, 1, 2, 3], 32, 1, 1, 0], [0, [2, 3], 32, 2, 1, 0], [1, [0, 4, 5, 6, 7], 64, 2, 2, 0], [1, [0, 2, 4, 7], 64, 1, 2, 0], [1, [0, 5, 7], 64, 4, 2, 0], [1, [0, 5], 64, 1, 2, 0], [2, [4, 8, 10, 11], 256, 1, 2, 0], [2, [8, 9], 256, 4, 2, 0], [3, [12, 13], 512, 2, 2, 0]]
+I0921 12:15:57.834666 140176204107968 assemblenet_plus.py:443] model_structure=[[-1, 4], [-1, 4], [-2, 1], [-2, 1], [0, [1], 32, 1, 1, 0], [0, [0], 32, 4, 1, 0], [0, [0, 1, 2, 3], 32, 1, 1, 0], [0, [2, 3], 32, 2, 1, 0], [1, [0, 4, 5, 6, 7], 64, 2, 2, 0], [1, [0, 2, 4, 7], 64, 1, 2, 0], [1, [0, 5, 7], 64, 4, 2, 0], [1, [0, 5], 64, 1, 2, 0], [2, [4, 8, 10, 11], 256, 1, 2, 0], [2, [8, 9], 256, 4, 2, 0], [3, [12, 13], 512, 2, 2, 0]]
+I0921 12:15:57.834775 140176204107968 assemblenet_plus.py:444] model_edge_weights=[[], [], [], [], [], [], [[0.13810564577579498, 0.8465337157249451, 0.3072969317436218, 0.2867436408996582]], [[0.5846117734909058, 0.6066334843635559]], [[0.16382087767124176, 0.8852924704551697, 0.4039595425128937, 0.6823437809944153, 0.5331538319587708]], [[0.028569204732775688, 0.10333596915006638, 0.7517264485359192, 0.9260114431381226]], [[0.28832191228866577, 0.7627848982810974, 0.404977947473526]], [[0.23474831879138947, 0.7841425538063049]], [[0.27616503834724426, 0.9514784812927246, 0.6568767428398132, 0.9547983407974243]], [[0.5047007203102112, 0.8876819610595703]], [[0.9892204403877258, 0.8454614877700806]]]
+I0921 12:16:03.703964 140176204107968 assemblenet_plus.py:523] {-3: [], -2: [2, 3], -1: [0, 1], 0: [4, 5, 6, 7], 1: [8, 9, 10, 11], 2: [12, 13], 3: [14]}
+I0921 12:16:03.704236 140176204107968 assemblenet_plus.py:531] [2, 3, 0, 1]
+I0921 12:16:03.704295 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:03.704356 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:03.704404 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:03.704449 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:06.289240 140176204107968 assemblenet_plus.py:523] {-3: [], -2: [2, 3], -1: [0, 1], 0: [4, 5, 6, 7], 1: [8, 9, 10, 11], 2: [12, 13], 3: [14]}
+I0921 12:16:06.289524 140176204107968 assemblenet_plus.py:531] [2, 3, 0, 1]
+I0921 12:16:06.289584 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:06.289660 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:06.289710 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:06.289756 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:07.430090 140176204107968 assemblenet_plus.py:523] {-3: [], -2: [2, 3], -1: [0, 1], 0: [4, 5, 6, 7], 1: [8, 9, 10, 11], 2: [12, 13], 3: [14]}
+I0921 12:16:07.430345 140176204107968 assemblenet_plus.py:531] [2, 3, 0, 1]
+I0921 12:16:07.430402 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:07.430477 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:07.430527 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:07.430573 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:09.491074 140176204107968 assemblenet_plus.py:523] {-3: [], -2: [2, 3], -1: [0, 1], 0: [4, 5, 6, 7], 1: [8, 9, 10, 11], 2: [12, 13], 3: [14]}
+I0921 12:16:09.491340 140176204107968 assemblenet_plus.py:531] [2, 3, 0, 1]
+I0921 12:16:09.491397 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:09.491460 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:09.491509 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:09.491555 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:10.787335 140176204107968 assemblenet_plus.py:523] {-3: [], -2: [2, 3], -1: [0, 1], 0: [4, 5, 6, 7], 1: [8, 9, 10, 11], 2: [12, 13], 3: [14]}
+I0921 12:16:10.787600 140176204107968 assemblenet_plus.py:531] [2, 3, 0, 1, 4, 5, 6, 7]
+I0921 12:16:10.787659 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:10.787723 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:10.787772 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:10.787837 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:10.787890 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:10.787935 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:10.787986 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:10.788028 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:13.571854 140176204107968 assemblenet_plus.py:523] {-3: [], -2: [2, 3], -1: [0, 1], 0: [4, 5, 6, 7], 1: [8, 9, 10, 11], 2: [12, 13], 3: [14]}
+I0921 12:16:13.572170 140176204107968 assemblenet_plus.py:531] [2, 3, 0, 1, 4, 5, 6, 7]
+I0921 12:16:13.572254 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:13.572348 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:13.572425 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:13.572496 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:13.572565 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:13.572633 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:13.572701 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:13.572768 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:15.726587 140176204107968 assemblenet_plus.py:523] {-3: [], -2: [2, 3], -1: [0, 1], 0: [4, 5, 6, 7], 1: [8, 9, 10, 11], 2: [12, 13], 3: [14]}
+I0921 12:16:15.726895 140176204107968 assemblenet_plus.py:531] [2, 3, 0, 1, 4, 5, 6, 7]
+I0921 12:16:15.726962 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:15.727030 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:15.727083 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:15.727133 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:15.727182 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:15.727231 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:15.727279 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:15.727327 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:17.594364 140176204107968 assemblenet_plus.py:523] {-3: [], -2: [2, 3], -1: [0, 1], 0: [4, 5, 6, 7], 1: [8, 9, 10, 11], 2: [12, 13], 3: [14]}
+I0921 12:16:17.594658 140176204107968 assemblenet_plus.py:531] [2, 3, 0, 1, 4, 5, 6, 7]
+I0921 12:16:17.594724 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:17.594820 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:17.594870 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:17.594915 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:17.594960 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:17.595004 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:17.595047 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:17.595091 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:19.365339 140176204107968 assemblenet_plus.py:523] {-3: [], -2: [2, 3], -1: [0, 1], 0: [4, 5, 6, 7], 1: [8, 9, 10, 11], 2: [12, 13], 3: [14]}
+I0921 12:16:19.365598 140176204107968 assemblenet_plus.py:531] [2, 3, 0, 1, 4, 5, 6, 7, 8, 9, 10, 11]
+I0921 12:16:19.365657 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:19.365720 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:19.365770 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:19.365816 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:19.365861 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:19.365906 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:19.365949 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:19.365993 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:19.366036 140176204107968 assemblenet_plus.py:533] (None, 28, 28, 256)
+I0921 12:16:19.366100 140176204107968 assemblenet_plus.py:533] (None, 28, 28, 256)
+I0921 12:16:19.366155 140176204107968 assemblenet_plus.py:533] (None, 28, 28, 256)
+I0921 12:16:19.366197 140176204107968 assemblenet_plus.py:533] (None, 28, 28, 256)
+I0921 12:16:23.442331 140176204107968 assemblenet_plus.py:523] {-3: [], -2: [2, 3], -1: [0, 1], 0: [4, 5, 6, 7], 1: [8, 9, 10, 11], 2: [12, 13], 3: [14]}
+I0921 12:16:23.442590 140176204107968 assemblenet_plus.py:531] [2, 3, 0, 1, 4, 5, 6, 7, 8, 9, 10, 11]
+I0921 12:16:23.442651 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:23.442714 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:23.442785 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:23.442831 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:23.442876 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:23.442931 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:23.442975 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:23.443019 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:23.443063 140176204107968 assemblenet_plus.py:533] (None, 28, 28, 256)
+I0921 12:16:23.443105 140176204107968 assemblenet_plus.py:533] (None, 28, 28, 256)
+I0921 12:16:23.443148 140176204107968 assemblenet_plus.py:533] (None, 28, 28, 256)
+I0921 12:16:23.443189 140176204107968 assemblenet_plus.py:533] (None, 28, 28, 256)
+I0921 12:16:25.933279 140176204107968 assemblenet_plus.py:523] {-3: [], -2: [2, 3], -1: [0, 1], 0: [4, 5, 6, 7], 1: [8, 9, 10, 11], 2: [12, 13], 3: [14]}
+I0921 12:16:25.933548 140176204107968 assemblenet_plus.py:531] [2, 3, 0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+I0921 12:16:25.933612 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:25.933676 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:25.933725 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:25.933769 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 32)
+I0921 12:16:25.933814 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:25.933859 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:25.933903 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:25.933963 140176204107968 assemblenet_plus.py:533] (None, 56, 56, 128)
+I0921 12:16:25.934006 140176204107968 assemblenet_plus.py:533] (None, 28, 28, 256)
+I0921 12:16:25.934051 140176204107968 assemblenet_plus.py:533] (None, 28, 28, 256)
+I0921 12:16:25.934095 140176204107968 assemblenet_plus.py:533] (None, 28, 28, 256)
+I0921 12:16:25.934142 140176204107968 assemblenet_plus.py:533] (None, 28, 28, 256)
+I0921 12:16:25.934186 140176204107968 assemblenet_plus.py:533] (None, 14, 14, 1024)
+I0921 12:16:25.934229 140176204107968 assemblenet_plus.py:533] (None, 14, 14, 1024)
+I0921 12:16:31.443536 140176204107968 assemblenet_plus.py:728] Number of parameters in AssembleNet++ backbone: 41.638992 M.
+I0921 12:16:42.810964 140176204107968 dataset_builder.py:837] No config specified, defaulting to first: ucf101/ucf101_1_256
+I0921 12:16:43.013616 140176204107968 dataset_info.py:358] Load dataset info from gs://oss-yonsei/tensorflow_datasets/ucf101/ucf101_1_256/2.0.0
+I0921 12:16:43.464866 140176204107968 dataset_builder.py:351] Reusing dataset ucf101 (gs://oss-yonsei/tensorflow_datasets/ucf101/ucf101_1_256/2.0.0)
+I0921 12:16:43.465257 140176204107968 logging_logger.py:35] Constructing tf.data.Dataset ucf101 for split train, from gs://oss-yonsei/tensorflow_datasets/ucf101/ucf101_1_256/2.0.0
+WARNING:tensorflow:From /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py:5043: calling gather (from tensorflow.python.ops.array_ops) with validate_indices is deprecated and will be removed in a future version.
+Instructions for updating:
+The `validate_indices` argument has no effect. Indices are always validated on CPU and never validated on GPU.
+W0921 12:16:44.933275 140176204107968 deprecation.py:528] From /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/ops/array_ops.py:5043: calling gather (from tensorflow.python.ops.array_ops) with validate_indices is deprecated and will be removed in a future version.
+Instructions for updating:
+The `validate_indices` argument has no effect. Indices are always validated on CPU and never validated on GPU.
+I0921 12:16:45.452525 140176204107968 dataset_builder.py:837] No config specified, defaulting to first: ucf101/ucf101_1_256
+I0921 12:16:45.580752 140176204107968 dataset_info.py:358] Load dataset info from gs://oss-yonsei/tensorflow_datasets/ucf101/ucf101_1_256/2.0.0
+I0921 12:16:45.924602 140176204107968 dataset_builder.py:351] Reusing dataset ucf101 (gs://oss-yonsei/tensorflow_datasets/ucf101/ucf101_1_256/2.0.0)
+I0921 12:16:45.924982 140176204107968 logging_logger.py:35] Constructing tf.data.Dataset ucf101 for split test, from gs://oss-yonsei/tensorflow_datasets/ucf101/ucf101_1_256/2.0.0
+I0921 12:16:46.847686 140176204107968 controller.py:391] restoring or initializing model...
+I0921 12:16:46.848015 140176204107968 controller.py:397] initialized model.
+I0921 12:16:46.848086 140176204107968 train_lib.py:110] Starts to execute mode: train_and_eval
+I0921 12:16:46.855107 140176204107968 controller.py:236] train | step:      0 | training until step 144...
+Traceback (most recent call last):
+  File "/home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/ryan0507/20210818/official/vision/beta/projects/assemblenet/train.py", line 111, in <module>
+    app.run(main)
+  File "/home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/absl/app.py", line 303, in run
+    _run_main(main, args)
+  File "/home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "/home/ryan0507/20210818/official/vision/beta/projects/assemblenet/train.py", line 99, in main
+    train_lib.run_experiment(
+  File "/home/ryan0507/20210818/official/core/train_lib.py", line 115, in run_experiment
+    controller.train_and_evaluate(
+  File "/home/ryan0507/20210818/orbit/controller.py", line 332, in train_and_evaluate
+    self.train(steps=num_steps, checkpoint_at_completion=False)
+  File "/home/ryan0507/20210818/orbit/controller.py", line 240, in train
+    self._train_n_steps(num_steps)
+  File "/home/ryan0507/20210818/orbit/controller.py", line 439, in _train_n_steps
+    train_output = self.trainer.train(num_steps_tensor)
+  File "/home/ryan0507/20210818/orbit/standard_runner.py", line 146, in train
+    self._train_loop_fn(self._train_iter, num_steps)
+  File "/home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 889, in __call__
+    result = self._call(*args, **kwds)
+  File "/home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 950, in _call
+    return self._stateless_fn(*args, **kwds)
+  File "/home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 3022, in __call__
+    filtered_flat_args) = self._maybe_define_function(args, kwargs)
+  File "/home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 3444, in _maybe_define_function
+    graph_function = self._create_graph_function(args, kwargs)
+  File "/home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/eager/function.py", line 3279, in _create_graph_function
+    func_graph_module.func_graph_from_py_func(
+  File "/home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/framework/func_graph.py", line 999, in func_graph_from_py_func
+    func_outputs = python_func(*func_args, **func_kwargs)
+  File "/home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py", line 672, in wrapped_fn
+    out = weak_wrapped_fn().__wrapped__(*args, **kwds)
+  File "/home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/framework/func_graph.py", line 986, in wrapper
+    raise e.ag_error_metadata.to_exception(e)
+ValueError: in user code:
+
+    /home/ryan0507/20210818/orbit/utils/loop_fns.py:118 loop_fn  *
+        step_fn(iterator)
+    /home/ryan0507/20210818/official/core/base_trainer.py:410 step_fn  *
+        logs = task_train_step(
+    /home/ryan0507/20210818/official/vision/beta/tasks/video_classification.py:261 train_step  *
+        outputs = model(features, training=True)
+    /home/ryan0507/20210818/official/vision/beta/projects/assemblenet/modeling/assemblenet_plus.py:366 call  *
+        self.attention_mode,inputs[1], self.use_5d_mode)
+    /home/ryan0507/20210818/official/vision/beta/projects/assemblenet/modeling/assemblenet_plus.py:324 fusion_with_peer_attention  *
+        per_channel_inps = _ApplyEdgeWeight(
+    /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer.py:1023 __call__  **
+        self._maybe_build(inputs)
+    /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer.py:2625 _maybe_build
+        self.build(input_shapes)  # pylint:disable=not-callable
+    /home/ryan0507/20210818/official/vision/beta/projects/assemblenet/modeling/assemblenet_plus.py:190 build
+        self._edge_weights = self.add_weight(
+    /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer.py:639 add_weight
+        variable = self._add_variable_with_custom_getter(
+    /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/training/tracking/base.py:810 _add_variable_with_custom_getter
+        new_variable = getter(
+    /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer.py:629 getter
+        variable = old_getter(*args, **kwargs)
+    /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer_utils.py:127 make_variable
+        return tf_variables.VariableV1(
+    /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/ops/variables.py:260 __call__
+        return cls._variable_v1_call(*args, **kwargs)
+    /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/ops/variables.py:206 _variable_v1_call
+        return previous_getter(
+    /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/ops/variables.py:67 getter
+        return captured_getter(captured_previous, **kwargs)
+    /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/distribute/distribute_lib.py:2111 creator_with_resource_vars
+        created = self._create_variable(next_creator, **kwargs)
+    /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/distribute/tpu_strategy.py:1166 _create_variable
+        return distribute_utils.create_mirrored_variable(
+    /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/distribute/distribute_utils.py:306 create_mirrored_variable
+        value_list = real_mirrored_creator(**kwargs)
+    /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/distribute/tpu_strategy.py:1160 _real_mirrored_creator
+        v = next_creator(**kwargs)
+    /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/ops/variables.py:67 getter
+        return captured_getter(captured_previous, **kwargs)
+    /home/ryan0507/anaconda3/envs/tf2py38/lib/python3.8/site-packages/tensorflow/python/eager/def_function.py:768 invalid_creator_scope
+        raise ValueError(
+
+    ValueError: tf.function-decorated function tried to create variables on non-first call.
+
+restoring or initializing model...
+initialized model.
+train | step:      0 | training until step 144...
